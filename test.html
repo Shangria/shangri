@@ -4,9 +4,100 @@
     <link rel="stylesheet" href="css/shangri.css">
     <title>glupishka</title>
     <meta charset="UTF-8">
+    <style>
+        div {
+            border: 1px solid gray;
+            padding: 10px;
+            width: 90%;
+            border-radius: 4px;
+            margin-bottom: 20px;
+
+        }
+
+        p:hover {
+            background: white;
+            color: gray;
+        }
+
+        .capt {
+            color: darkred;
+            font-weight: bold;
+        }
+
+        table {
+            background: ghostwhite;
+        }
+    </style>
 </head>
 <body>
-<h1>Сегодня будем образовывать глупышку <img src="images/es-and.jpg"> </h1>
+<h1>
+    Сегодня будем образовывать глупышку <img src="images/es-and.jpg" width="50px" height="50px"></br>
+    Задание 01</h1>
+<div>
+    <p> На самом верху был заголовок <a href="http://htmlbook.ru/html/h1">h1</a> (это ссылка можешь нажать для
+        подробностей)
+    <p> Напомню глупышке, что HTML предлагает шесть заголовков разного уровня, которые показывают
+        относительную важность секции, расположенной после заголовка. Так, тег h1 представляет собой наиболее
+        важный заголовок первого уровня, а тег h6 служит для обозначения заголовка шестого уровня и является наименее
+        По умолчанию, заголовок первого уровня отображается самым крупным шрифтом жирного начертания, заголовки
+        последующего
+        уровня по размеру меньше. Теги h1,...,h6 относятся к блочным элементам, они всегда начинаются с новой строки, а
+        после
+        них другие элементы отображаются на следующей строке.
+        Кроме того, перед заголовком и после него добавляется пустое пространство.</p>
+</div>
+<div>
+    <p>Обязательно посмотри на хтмл буке что такое тег <a href="http://htmlbook.ru/html/br"> br </a> </br>
+        этот тег используется не очень часто, но он нужен
+    </p>
+</div>
+<div>
+    <p>теперь познакомимся с <a href="http://htmlbook.ru/html/table"> таблицей </a></p>
+    <table class="table" border="1" cellspacing="0" cellpadding="0" width="100%">
+        <caption>Я шапка таблицы<span class="capt"> caption</span> <a href="http://htmlbook.ru/html/caption">
+            (ссылка)</a> и я используюсь редко
+        </caption>
+        <thead>
+        <th>я ячейка заголовка <span class="capt">th</span></th>
+        <th>и я ячейка заголовка <span class="capt">th</span></th>
+        </th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
+            <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
+        </tr>
+        <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+        <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+        </tbody>
+    </table>
+</div>
+<div>
+    <p>теперь давай вопользуемся таблице , чтоб написать там про глупышку (Шапку caption использовать не будем)</p>
+    <table border="1" cellpadding="0" cellspacing="0">
+        <thead>
+        <th>арбузьеро на факэбукэ</th>
+        <th>арбузная фотокарточка</th>
+        <th>арбузные достоинства  в перечне</th>
+        <th>арбузные недостатки маркернуть</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>ссылка на <a href="https://www.facebook.com/mikleee"> арбузную жизнь </a></td>
+            <td><img src="images/1.jpg"></td>
+            <td>
+                <ol>
+                    <li>большой</li>
+                    <li>сильный</li>
+                </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>не вычесывает Персюшке шерсть</li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 </body>
-</html>
-
