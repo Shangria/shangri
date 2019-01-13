@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/shangri.css">
+    <title>image-examples</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<div>
+    <div class="image-example">
+        <div>Картинка через ссылка в итернете</div>
+        <div>
+            <img src="https://zabavnik.club/wp-content/uploads/2018/05/cat_with_glasses_1_06143253.jpg"/>
+        </div>
+    </div>
+    <div class="image-example">
+        <div>Картинка на файловой системе в той же папаке</div>
+        <div>
+            <img src="medved.jpg"/>
+        </div>
+    </div>
+    <div class="image-example">
+        <div>Картинка на файловой системе в другой папаке</div>
+        <div>
+            <img src="images/sobaka.jpg"/>
+        </div>
+    </div>
+</div>
+
+<style>
+    .image-example {
+        border-radius: 5px;
+        background-color: lightgray;
+        width: 400px;
+    }
+
+    .image-example > div {
+        margin: 4px;
+        padding: 5px;
+    }
+
+    .image-example > div:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    .image-example img {
+        height: 200px;
+    }
+</style>
+
+</body>
+</html>
+
