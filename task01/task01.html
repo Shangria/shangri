@@ -7,8 +7,8 @@
 </head>
 <body>
 <h1>
-    Сегодня будем образовывать глупышку <img src="../images/es-and.jpg" width="50px" height="50px"><br/>
-    Задание 01</h1>
+    Сегодня будем образовывать глупышку <img src="../images/es-and.jpg" width="50px" height="50px">
+    <br> Задание 01</h1> <br/>
 <div class="color">
     <p> На самом верху был заголовок <a href="http://htmlbook.ru/html/h1">h1</a> (это ссылка можешь нажать для
         подробностей)
@@ -22,39 +22,45 @@
         них другие элементы отображаются на следующей строке.
         Кроме того, перед заголовком и после него добавляется пустое пространство.</p>
 </div>
-<div>
+<div class="color">
     <p>Обязательно посмотри на хтмл буке что такое тег <a href="http://htmlbook.ru/html/br"> br </a> <br/>
         этот тег используется не очень часто, но он нужен
     </p>
 </div>
-<div>
+<div class="color">
     <p>теперь познакомимся с <a href="http://htmlbook.ru/html/table"> таблицей </a></p>
-    <table class="table" border="1" cellspacing="0" cellpadding="0" width="100%">
+    <table class="table">
         <caption>Я шапка таблицы<span class="capt"> caption</span> <a href="http://htmlbook.ru/html/caption">
             (ссылка)</a> и я используюсь редко
         </caption>
         <thead>
-        <tr>я ячейка заголовка <span class="capt">th</span></tr>
-        <tr>и я ячейка заголовка <span class="capt">th</span></tr>
+        <tr>
+            <th>я ячейка заголовка <span class="capt">th</span></th>
+            <th>и я ячейка заголовка <span class="capt">th</span></th>
+        </tr>
         </thead>
         <tbody>
         <tr>
             <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
             <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
         </tr>
-        <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
-        <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+        <tr>
+            <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+            <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+        </tr>
         </tbody>
     </table>
 </div>
-<div>
+<div class="color">
     <p>теперь давай вопользуемся таблице , чтоб написать арбузное досье (Шапку caption использовать не будем)</p>
-    <table border="1" cellpadding="0" cellspacing="0">
+    <table>
         <thead>
-        <th>арбузьеро на факэбукэ</th>
-        <th>арбузная фотокарточка</th>
-        <th>арбузные достоинства в перечне</th>
-        <th>арбузные недостатки маркернуть</th>
+        <tr>
+            <th>арбузьеро на факэбукэ</th>
+            <th>арбузная фотокарточка</th>
+            <th>арбузные достоинства в перечне</th>
+            <th>арбузные недостатки маркернуть</th>
+        </tr>
         </thead>
         <tbody>
         <tr>
@@ -75,17 +81,20 @@
         </tbody>
     </table>
 </div>
-<div>
-    <p>и под конец: </br>
-        Я тег <span class="capt"> fieldset </span> я хочу познакомиться с Глупышкой
+<div class="color">
+    <p>и под конец:
+        <br>Я тег <span class="capt"> fieldset </span> я хочу познакомиться с Глупышкой<br/>
     </p>
     <fieldset>
-        <legend>Я тег <span class="capt"> legend</span> в теге<span class="capt">fieldset</span></legend>
-        <p>Элемент <span class="capt">fieldset</span>  <a href="http://htmlbook.ru/samhtml5/formy/gruppirovanie-elementov-form"> (ссылка на хтмл бук)</a> предназначен для группирования элементов формы.
-            Такая группировка облегчает работу с формами, содержащими большое число данных.
-            Например, один блок может быть предназначен для ввода текстовой информации, а другой — для флажков. Браузеры
-            для повышения наглядности отображают результат использования тега<span class="capt"> fieldset </span> в виде рамки.
-            Ее вид зависит от операционной системы, а также используемого браузера</p>
+        <legend>Я тег <span class="capt"> legend </span> в теге<span class="capt">fieldset</span></legend>
+        <br>Элемент <span class="capt">fieldset</span>
+        <a href="http://htmlbook.ru/samhtml5/formy/gruppirovanie-elementov-form">
+        (ссылка на хтмл бук)</a> предназначен для группирования элементов формы.
+        Такая группировка облегчает работу с формами, содержащими большое число данных.
+        Например, один блок может быть предназначен для ввода текстовой информации, а другой — для флажков. Браузеры
+        для повышения наглядности отображают результат использования тега<span class="capt"> fieldset </span> в виде
+        рамки.
+        Ее вид зависит от операционной системы, а также используемого браузера<br/>
     </fieldset>
 </div>
 </body>

@@ -6,7 +6,7 @@ div {
     margin-bottom: 20px;
 }
 div.color:hover {
-    background: palevioletred;
+    background: ghostwhite;
 }
 
 .capt {
@@ -15,4 +15,8 @@ div.color:hover {
 }
 table {
     background: ghostwhite;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
 }
+th, td { border: 1px solid grey}
