@@ -5,6 +5,7 @@ div {
     border-radius: 4px;
     margin-bottom: 20px;
 }
+
 div.color:hover {
     background: ghostwhite;
 }
@@ -13,10 +14,43 @@ div.color:hover {
     color: darkred;
     font-weight: bold;
 }
+
 table {
     background: ghostwhite;
     border: 1px solid grey;
     border-collapse: collapse;
     width: 100%;
 }
-th, td { border: 1px solid grey}
+
+th, td {
+    border: 1px solid grey
+}
+
+table.feedback {
+    background-color: #6f5499;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+table.feedback caption {
+    text-align: left;
+    padding: 5px;
+}
+
+table.feedback td,
+table.feedback th {
+    text-align: left;
+    padding: 3px;
+    border: none;
+}
+
+table.feedback th {
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+
+table.feedback td .done {
+    text-decoration: line-through;
+}

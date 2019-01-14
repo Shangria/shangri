@@ -8,7 +8,43 @@
 <body>
 <h1>
     Сегодня будем образовывать глупышку <img src="../images/es-and.jpg" width="50px" height="50px">
-    <br> Задание 01</h1> <br/>
+    <br> Задание 01</h1>
+<br/>
+
+<table class="feedback">
+    <caption><button type="button" onclick="alert('ты жока')">Нажми меня</button></caption>
+    <thead>
+        <tr>
+            <th>Что доделать</th>
+            <th>Вопросы, на которые нужно знать ответы</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li>все стили (картинки) должны быть убраны с html и перещены в css</li>
+                    <li>задала любые, на своё усмотрение стили для ссылок</li>
+                    <li>нарисовать div c любым сожержимым, у которго при навередении цвет будет #00ff40</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>основные свойства блочных  сточных элементов</li>
+                    <li>что такое caption?</li>
+                    <li class="done">что такое br?</li>
+                    <li>как строиться каркас таблицы (thead, tbody, tr, th, td)</li>
+                    <li>что такое тег small?</li>
+                    <li>что такое css свойство hover?</li>
+                    <li>текст во всех ячейках таблиц (th, td) должен быть выровнян по левому краю</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
 <div class="color">
     <p> На самом верху был заголовок <a href="http://htmlbook.ru/html/h1">h1</a> (это ссылка можешь нажать для
         подробностей)
@@ -34,20 +70,20 @@
             (ссылка)</a> и я используюсь редко
         </caption>
         <thead>
-        <tr>
-            <th>я ячейка заголовка <span class="capt">th</span></th>
-            <th>и я ячейка заголовка <span class="capt">th</span></th>
-        </tr>
+            <tr>
+                <th>я ячейка заголовка <span class="capt">th</span></th>
+                <th>и я ячейка заголовка <span class="capt">th</span></th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
-            <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
-        </tr>
-        <tr>
-            <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
-            <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
-        </tr>
+            <tr>
+                <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
+                <td>я ячейка тела <span class="capt">td</span> в первом рядке</td>
+            </tr>
+            <tr>
+                <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+                <td>я ячейка тела <span class="capt">td</span> во втором рядке</td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -55,29 +91,29 @@
     <p>теперь давай вопользуемся таблице , чтоб написать арбузное досье (Шапку caption использовать не будем)</p>
     <table>
         <thead>
-        <tr>
-            <th>арбузьеро на факэбукэ</th>
-            <th>арбузная фотокарточка</th>
-            <th>арбузные достоинства в перечне</th>
-            <th>арбузные недостатки маркернуть</th>
-        </tr>
+            <tr>
+                <th>арбузьеро на факэбукэ</th>
+                <th>арбузная фотокарточка</th>
+                <th>арбузные достоинства в перечне</th>
+                <th>арбузные недостатки маркернуть</th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>ссылка на <a href="https://www.facebook.com/mikleee"> арбузную жизнь </a></td>
-            <td><img src="../images/1.jpg"></td>
-            <td>
-                <ol>
-                    <li>большой</li>
-                    <li>сильный</li>
-                </ol>
-            </td>
-            <td>
-                <ul>
-                    <li>не вычесывает Персюшке шерсть</li>
-                </ul>
-            </td>
-        </tr>
+            <tr>
+                <td>ссылка на <a href="https://www.facebook.com/mikleee"> арбузную жизнь </a></td>
+                <td><img src="../images/1.jpg"></td>
+                <td>
+                    <ol>
+                        <li>большой</li>
+                        <li>сильный</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li>не вычесывает Персюшке шерсть</li>
+                    </ul>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -89,7 +125,7 @@
         <legend>Я тег <span class="capt"> legend </span> в теге<span class="capt">fieldset</span></legend>
         <br>Элемент <span class="capt">fieldset</span>
         <a href="http://htmlbook.ru/samhtml5/formy/gruppirovanie-elementov-form">
-        (ссылка на хтмл бук)</a> предназначен для группирования элементов формы.
+            (ссылка на хтмл бук)</a> предназначен для группирования элементов формы.
         Такая группировка облегчает работу с формами, содержащими большое число данных.
         Например, один блок может быть предназначен для ввода текстовой информации, а другой — для флажков. Браузеры
         для повышения наглядности отображают результат использования тега<span class="capt"> fieldset </span> в виде
