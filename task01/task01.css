@@ -25,6 +25,11 @@ a {
     border-bottom: 2px dashed deeppink;
     padding-bottom: 3px
 }
+.poem:hover{
+    background: #00ff40;
+    font-weight: bold;
+
+}
 .capt {
     color: darkred;
     font-weight: bold;
