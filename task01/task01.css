@@ -9,7 +9,22 @@ div {
 div.color:hover {
     background: ghostwhite;
 }
-
+.img {
+    width: 50px;
+    height: 40px;
+    background-image: url('../images/es-and.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 0px solid;
+    float: right;
+    margin: 0px 300px;
+}
+a {
+    text-decoration: none;
+    border-bottom: 2px dashed deeppink;
+    padding-bottom: 3px
+}
 .capt {
     color: darkred;
     font-weight: bold;
