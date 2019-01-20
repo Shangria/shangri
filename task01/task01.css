@@ -9,6 +9,10 @@ div {
 div.color:hover {
     background: ghostwhite;
 }
+.block1{
+    border: 0px solid;
+    float: left;
+}
 .img {
     width: 50px;
     height: 40px;
@@ -18,7 +22,6 @@ div.color:hover {
     background-position: right;
     border: 0px solid;
     float: right;
-    margin: 0px 300px;
 }
 a {
     text-decoration: none;
@@ -28,6 +31,7 @@ a {
 .poem:hover{
     background: #00ff40;
     font-weight: bold;
+    clear: both;
 
 }
 .pick_out {
