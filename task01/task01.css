@@ -1,4 +1,28 @@
-div {
+div.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-text {
+    margin: 5px;
+    width: 49%;
+    display: inline-block;
+}
+
+.title-image-container {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+img.title-image {
+    height: 70px;
+}
+
+
+/*section containers*/
+
+div.section-container {
     border: 1px solid gray;
     padding: 10px;
     width: 90%;
@@ -6,13 +30,15 @@ div {
     margin-bottom: 20px;
 }
 
-div.color:hover {
+div.section-container:hover {
     background: ghostwhite;
 }
-.block1{
-    border: 0px solid;
-    float: left;
+
+div.section-container.green-section-container:hover {
+    background: green;
 }
+
+
 .img {
     width: 50px;
     height: 40px;
@@ -21,19 +47,24 @@ div.color:hover {
     background-repeat: no-repeat;
     background-position: right;
     border: 0px solid;
-    float: right;
+    float: left;
 }
+
 a {
     text-decoration: none;
     border-bottom: 2px dashed deeppink;
     padding-bottom: 3px
 }
-.poem:hover{
-    background: #00ff40;
-    font-weight: bold;
-    clear: both;
 
+.poem {
+    background: red;
 }
+
+.poem:hover {
+    /*background: #00ff40;*/
+    font-weight: bold;
+}
+
 .pick_out {
     color: darkred;
     font-weight: bold;
