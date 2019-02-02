@@ -1,8 +1,7 @@
 .page-content {
     color: #7952b3;
-    margin: auto;
     width: 1000px;
-    margin-top: 50px;
+    margin: 50px auto auto;
     padding: 20px;
 }
 
@@ -15,12 +14,19 @@
 }
 
 .chapter {
-    margin-bottom: 5px;
+    margin-bottom: 2em;
+    padding: 10px;
+    background-color: #563d7c0f;
+    border-radius: 9px;
+}
+
+.chapter h3 {
+    margin: 10px 0;
 }
 
 .chapter p,
 .chapter ul,
 .chapter ol {
-    margin-top: 0;
-    margin-bottom: 10px;
+    line-height: 1em;
+    margin: 0 0 10px 15px;
 }
