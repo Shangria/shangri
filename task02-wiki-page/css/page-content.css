@@ -1,0 +1,26 @@
+.page-content {
+    color: #7952b3;
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.text-important1 {
+    text-decoration: underline;
+}
+
+.text-important2 {
+    font-weight: bold;
+}
+
+.chapter {
+    margin-bottom: 5px;
+}
+
+.chapter p,
+.chapter ul,
+.chapter ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
