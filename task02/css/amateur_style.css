@@ -3,7 +3,6 @@
     margin-top: 70px;
 
 }
-
 .text_style {
     display: block;
     margin: 30px auto auto;
@@ -18,11 +17,13 @@
 
 h3 {
     line-height: 0;
+    color: crimson;
 }
 
 p {
     padding-left: 10px;
     padding-right: 10px;
+    color: crimson;
 }
 
 .text_assignment {
