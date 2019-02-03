@@ -1,0 +1,19 @@
+
+.text_style {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 222.531px;
+    margin-right: 222.547px;
+    padding: 20px;
+    background: #563d7c0f;
+    text-align: justify;
+    border-radius: 9px;
+    color: #7952b3;
+    line-height:1;
+}
+.text_assignment {
+    text-decoration: underline;
+ }
+.text_assignment_bold{
+    font-weight: bold;
+}
