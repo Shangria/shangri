@@ -1,0 +1,30 @@
+.title_interval{
+    display: block;
+    margin-top: 70px;
+
+}
+.text_style {
+    display: block;
+    margin: 50px auto auto;
+    width: 63%;
+    padding: 10px;
+    background: #563d7c0f;
+    text-align: left;
+    border-radius: 9px;
+    color: #7952b3;
+    line-height: 1;
+}
+h3 {
+    line-height: 0;
+}
+
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+.text_assignment {
+    text-decoration: underline;
+ }
+.text_assignment_bold{
+    font-weight: bold;
+}
