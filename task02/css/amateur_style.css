@@ -1,8 +1,9 @@
-.title_interval{
+.title_interval {
     display: block;
     margin-top: 70px;
 
 }
+
 .text_style {
     display: block;
     margin: 30px auto auto;
@@ -14,17 +15,20 @@
     color: #7952b3;
     line-height: 1;
 }
+
 h3 {
     line-height: 0;
 }
 
-    p{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .text_assignment {
     text-decoration: underline;
- }
-.text_assignment_bold{
+}
+
+.text_assignment_bold {
     font-weight: bold;
 }
