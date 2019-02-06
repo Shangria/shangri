@@ -1,12 +1,16 @@
 .title_interval {
     display: block;
     margin-top: 70px;
+    width: 63%;
+    position: relative;
+    right: -12%;
 
 }
-.text_style {
+.text_style  {
     display: block;
+    position: absolute;
     margin: 30px auto auto;
-    width: 63%;
+    width: 100%;
     padding: 10px;
     background: #563d7c0f;
     text-align: left;
@@ -17,13 +21,13 @@
 
 h3 {
     line-height: 0;
-    color: crimson;
+    color: inherit;
 }
 
 p {
     padding-left: 10px;
     padding-right: 10px;
-    color: crimson;
+    color: inherit;
 }
 
 .text_assignment {
