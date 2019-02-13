@@ -6,12 +6,12 @@
     width: 300px;
     right: 0;
     font-size: 25px;
-    color: #db40e2;
+    color: #fff5fe;
     text-align: center;
     background: #563d7c;
     border: 1px;
     border-bottom-left-radius: 16px;
-    transition-duration: 1s;
+    transition: width 1s;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -20,6 +20,7 @@
 
 .moving_block:hover {
     width: 800px;
+    overflow: hidden;
 }
 
 .text_style_container {
