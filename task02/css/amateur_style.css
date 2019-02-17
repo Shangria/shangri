@@ -1,11 +1,11 @@
 .moving_block {
-    position: fixed;
-    top: 0;
+    position: fixed; /*расположение контейнера*/
+    top: 0; /*положение контейнера сверху*/
     padding: 10px;
     height: 30px;
     width: 300px;
     right: 0;
-    font-size: 25px;
+    font-size: 25px; /*размер шрифта 25 пикселей*/
     color: #fff5fe;
     text-align: center;
     background: #563d7c;
@@ -23,7 +23,27 @@
     overflow: hidden;
     text-overflow: clip;
 }
+.side-window {
+    position: fixed;
+    top: 0;
+    left: -10px;
+    height: 100%;
+    width: 3%;
+    background: #9d81c7 0 0;
+    font-size: 17px;
+    color: #fff5fe;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: normal;
+}
+.side-window:hover {
+    width: 20%;
+    background: #563d7c;
+}
+.side-window-2{
 
+
+}
 .text_style_container {
     width: 63%;
     margin: 0 auto;
