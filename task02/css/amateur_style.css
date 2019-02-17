@@ -36,6 +36,15 @@
     text-overflow: clip;
     white-space: normal;
 }
+.side-window-2{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    width: 20px;
+    background: #286090;
+    z-index: 1;
+}
 .side-window:hover {
     width: 20%;
     background: #c395ff;
