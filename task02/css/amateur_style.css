@@ -33,21 +33,26 @@ body {
     top: 0;
     height: 100%;
     width: 18%;
-    left: -17%;
-    background: #563d7c 0 0;
+    left: -18%;
+    background: #563d7c;
     font-size: 17px;
     color: #fff5fe;
-    overflow: hidden;
-    transition: width 1s linear;
+    transition: left 1s linear;
+}
+
+a {
+    text-decoration: none;
+    color: #cbbde2;
 }
 
 .side-window:hover {
-    width:40%;
+    left: 0;
 }
 
 .side-window-2 {
     top: 0;
-    left: 10px;
+    position: absolute;
+    right: -20px;
     height: 100%;
     width: 20px;
     background: #286090;
