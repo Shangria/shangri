@@ -1,83 +1,98 @@
 body {
-    margin: 0;
+    margin: 0; /*внешний отступ*/
 }
 
 .moving_block {
-    position: fixed; /*расположение контейнера*/
+    position: fixed; /*расположение контейнера, он зафиксирован и будет отображать при скроле страницы*/
     top: 0; /*положение контейнера сверху*/
-    padding: 10px;
-    height: 30px;
-    width: 300px;
-    right: 0;
+    padding: 10px; /*внутренний отступ*/
+    height: 30px; /*высота*/
+    width: 300px; /*ширина*/
+    right: 0; /*расстояние от правого края контейнера относительно правго края родителя*/
     font-size: 25px; /*размер шрифта 25 пикселей*/
-    color: #fff5fe;
-    text-align: center;
-    background: #563d7c;
-    border: 1px;
-    border-bottom-left-radius: 16px;
-    transition: width 1s;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    cursor: help;
+    color: #fff5fe; /*цвет*/
+    text-align: center; /*расположение текста в контейнере*/
+    background: #563d7c; /*цвет фона*/
+    border: 1px;/* ширина рамки*/
+    border-bottom-left-radius: 16px; /*округление левого края рамки*/
+    transition: width 1s; /*анимация, вид анимации, время анимации*/
+    overflow: hidden; /*управляет отображением содержания в контейнере,
+                        если оно не помещается в размеры блока, отображает
+                        область внутри эл-нта, остальное скрывает*/
+    white-space: nowrap; /*отображение пробелов между словами, пробелы не учтываются*/
+    text-overflow: ellipsis; /*текст обрезается, в конце строки ставится многоточие*/
+    cursor: help; /*изменяет !*вид курсора мыши*!*/
 }
 
 .moving_block:hover {
-    width: 800px;
-    overflow: hidden;
-    text-overflow: clip;
+    width: 800px; /*ширина блока*/
+    overflow: hidden; /*управляет отображением содержания в контейнере, отображает область внутр эл-нта, остально скрывает*/
+    text-overflow: clip;/* текст обрезается по размеру контейнера*/
 }
 
 .side-window {
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 18%;
-    left: -18%;
-    background: #563d7c;
-    font-size: 17px;
-    color: #fff5fe;
-    transition: left 1s linear;
+    position: fixed;/* позиция контейнера, заыиксировае и будет виден при скроле страицы*/
+    top: 0;/* положение верхнего края контейнера относительного верхнего края родительского эл-нта*/
+    height: 100%; /*высота блока*/
+    width: 18%; /*ширина блока*/
+    left: -17%;/* положение левого края контейнера относительно левого края родительского эл-нта*/
+    background: #563d7c;/* цвет фона*/
+    font-size: 16px; /*размер шрифта*/
+    color: #fff5fe; /*цвет шрифта*/
+    transition: left 1s linear;/* анимация блока, вид анимации, скорось*/
 }
 
 a {
-    text-decoration: none;
-    color: #cbbde2;
+    text-decoration: none;/* отменяет эффект подчервивания у ссылок*/
+    color: #cbbde2; /*цвет текста*/
 }
 
 .side-window:hover {
-    left: 0;
+    left: 0; /*положение левого края блока относительно левого края родительского эл-нта*/
 }
 
 .side-window-2 {
-    top: 0;
-    position: absolute;
-    right: -20px;
-    height: 100%;
-    width: 20px;
-    background: #286090;
+    top: 0;/* положение верхнего края блока относительно верхнего края родиельского эл-нта*/
+    position: absolute; /*позиция блока относительно родительского эл-нта*/
+    right: -12px; /*положение правго края блока относительного првого края родительсуого эл-нта*/
+    height: 100%; /*высота блока*/
+    width: 25px; /*ширина блока*/
+    background: #9e2bc7; /*цвет фона*/
 }
 
 .text_style_container {
-    width: 63%;
-    margin: 0 auto;
+    width: 63%; /*ширина блока*/
+    margin: 0 auto; /*внешний отступ*/
 }
 
 .text_style_container .text_style {
-    display: block;
-    padding: 10px;
-    margin: 10px 0 10px 0;
-    background: #563d7c0f;
-    text-align: justify;
-    border-radius: 9px;
-    line-height: 1;
-    color: #7952b3;
+    display: block; /*элемент показывается на странице как блок и ведет себя как блочный элемент.
+                    т.е блоки переносится на лругую строку, если для него не хватает места в строке*/
+    padding: 10px; /*внутренний отступ*/
+    margin: 10px 0 10px 0; /*внешний отсуп (правый, левый 10 пикс, верхний и нижни 0 пикс)*/
+    background: #563d7c0f;/* цвет фона*/
+    text-align: justify; /*располпжение текста внутри контейнера*/
+    border-radius: 9px; /*скругление угла рамки*/
+    line-height: 1; /*межстрочный интервал*/
+    color: #7952b3; /*цвет текста*/
 }
-
+.img-arrows {
+    position: relative; /*позиция блока относительно его первоначального места*/
+    overflow: hidden; /*управляет отобрадением содержимого внутри эл-нта, все лишнее скрывает*/
+    width: 25px;/* ширина блока*/
+    height: 26px;/* высота блока*/
+    bottom: -238px; /*положение нижнего края блока относительно нижего края родительского эл-нта*/
+    mix-blend-mode: color-burn ;/* смешивает цвет эл-нта с нижним слоем*/
+}
+.img-arrows img {
+    position: absolute; /*позиция блока относитель родителя*/
+    top: -258px; /*положение верхнего края блока относительно верхнего края родительского эл-нта*/
+    left: -505px; /*положение левого края блока относительно левого края родительского эл-нта*/
+}
 .text_assignment {
-    text-decoration: underline;
+    text-decoration: underline; /*подчеркивание текста*/
 }
 
 .text_assignment_bold {
-    font-weight: bold;
+    font-weight: bold; /*жирный текст*/
 }
