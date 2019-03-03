@@ -94,6 +94,15 @@ a {
     top: -1px;/*положение верхнего края блока относительно верхнего края его родителя*/
     left: -61px;/*положение левого края блока относительно верхнего края его родителя*/
 }
+.container-with-a-link{
+    position: fixed;
+    right: 0;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+    border: #cbbde2 2px;
+    border-radius: 4px;
+}
 .text_assignment {
     text-decoration: underline; /*подчеркивание текста*/
 }
