@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="table.css">
+    <title>таблички</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<ol class="main-list">
+    <li>
+        <div class="description">
+            <ul>
+                <li>таблица без стилей</li>
+                <li>что такое теги table, thead, tbody, tfoot tr, td, th, caption</li>
+                <li>что такое тег caption</li>
+                <li>какие теги где находяться</li>
+                <li>теги tfoot и caption используются редко</li>
+            </ul>
+        </div>
+
+        <table>
+            <caption>заголовок</caption>
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>футер</td>
+                    <td>футер</td>
+                    <td>футер</td>
+                </tr>
+            </tfoot>
+        </table>
+    </li>
+
+    <li>
+        <div class="description">
+            <ul>
+                <li>текст в ячейках отцентрован по вертикали</li>
+                <li>добавлена ширина таблицы</li>
+                <li>посмотри, что такое border-collapse</li>
+            </ul>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+
+    <li>
+        <div class="description">
+            <ul>
+                <li>таблицы с большим и маленьким паддингом</li>
+            </ul>
+        </div>
+        <table class="table big">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table small">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+
+    <li>
+        <div class="description">
+            <ul>
+                <li>таблица с границами в ячейках</li>
+            </ul>
+        </div>
+        <table class="table bordered">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+
+    <li>
+        <div class="description">
+            <ul>
+                <li>полосатая таблица</li>
+                <li>посмотри :nth-child(even) и :nth-child(odd)</li>
+            </ul>
+        </div>
+        <table class="table zebra">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+
+    <li>
+        <div class="description">
+            <ul>
+                <li>таблица с подсвечивающимися рядками при навелении</li>
+            </ul>
+        </div>
+        <table class="table hover">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table zebra hover">
+            <thead>
+                <tr>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                    <th>шапка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+                <tr>
+                    <td>тело</td>
+                    <td>тело</td>
+                    <td>тело</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+
+    <li>
+        <div class="description">
+            <ul>
+                <li>посмотри что такое аттрибуты colspan и rowspan</li>
+            </ul>
+        </div>
+        <table class="table bordered">
+            <thead>
+                <tr>
+                    <th>11</th>
+                    <th>12</th>
+                    <th>13</th>
+                </tr>
+                <tr>
+                    <th>21</th>
+                    <th>22</th>
+                    <th>23</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table bordered">
+            <thead>
+                <tr>
+                    <th colspan="2">11 + 12</th>
+                    <th>13</th>
+                </tr>
+                <tr>
+                    <th>21</th>
+                    <th>22</th>
+                    <th>23</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table bordered">
+            <thead>
+                <tr>
+                    <th rowspan="2">11 + 21</th>
+                    <th colspan="2">12 + 13</th>
+                </tr>
+                <tr>
+                    <th>22</th>
+                    <th>23</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">31 + 32</td>
+                    <td>33</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </li>
+
+</ol>
+
+</body>
+</html>
+

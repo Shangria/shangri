@@ -1,0 +1,56 @@
+.main-list > li {
+    width: 50%;
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid #9d81c7;
+    border-radius: 3px;
+}
+
+.description {
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+    background-color: #9d81c7;
+    margin: 3px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    table-layout: fixed;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.table thead th {
+    background-color: #d6d6d6;
+}
+
+.table.big td,
+.table.big th {
+    padding: 10px;
+}
+
+.table.big td,
+.table.big th {
+    padding: 1px;
+}
+
+.table.bordered td,
+.table.bordered th {
+    border: 1px solid gray;
+}
+
+.table.zebra tr:nth-child(even) td {
+    background-color: #e2e2e2;
+}
+
+.table.hover tr:hover td {
+    background-color: #a4eba7;
+}
