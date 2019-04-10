@@ -41,4 +41,13 @@
     top: calc(50% - 14px);
     border: 1px dashed black;
     position: absolute;
+
+    background: url(../img/arrows.png) no-repeat;
+    background-position: -70px -4px;
+    background-clip: border-box;
+    background-size: 100px;
+}
+
+.left-panel:hover .left-panel-arrow .arrow {
+    background-position: -70px -66px;
 }
