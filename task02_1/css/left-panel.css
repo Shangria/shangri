@@ -1,0 +1,44 @@
+.left-panel {
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    color: #fff5fe;
+    top: 0;
+    left: -200px;
+    transition: left 100ms ease-out;
+}
+
+.left-panel:hover {
+    left: 0;
+}
+
+.left-panel .left-panel-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: navy;
+}
+
+.left-panel .left-panel-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 39px;
+    height: 100%;
+    border-left: solid 1px white;
+    background-color: rgba(44, 128, 36, 0.67);
+
+}
+
+.left-panel .left-panel-arrow .arrow {
+    width: 26px;
+    height: 26px;
+    /*left: 50%;*/
+    /*margin-left: -14px;*/
+    left: calc(50% - 14px);
+    top: calc(50% - 14px);
+    border: 1px dashed black;
+    position: absolute;
+}
