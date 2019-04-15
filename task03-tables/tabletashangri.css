@@ -63,9 +63,26 @@
     background: lightgoldenrodyellow;
 }
 
-.table-striped-hover tr:hover{
+.table-striped-hover tr:hover td{
     background: #9e2bc7;
 }
-.table-style-hover tr:hover{
+.table-style-hover tr:hover td{
     background: #563d7c;
+}
+.table-striped-hover,.table-style-hover th{
+    background: darkorange;
+}
+.table-combined {
+    width: 100%;
+    border: 1px solid;
+    margin: 7px;
+    border-collapse: collapse;
+}
+.table-combined th,
+.table-combined td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.table-combined th{
+    background: yellow;
 }
