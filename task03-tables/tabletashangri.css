@@ -3,7 +3,9 @@
     width: 50%;
     border-radius: 3px;
     margin: 5px;
+    padding: 5px;
 }
+
 .task-and-information {
     background: #a4eba7;
     color: #650a7c;
@@ -11,21 +13,59 @@
     border-radius: 3px;
 }
 
-.table-style{
+.table-style, .table-style-hover, .table-striped-hover {
     width: 100%;
     border-collapse: collapse; /*убирает двойную рамку*/
     border: hotpink 1px solid;
-    margin: 3px;
+    margin: 7px;
 }
+
 .table-style td {
     vertical-align: middle;
 }
+
 .table-style th {
     background: lightgoldenrodyellow;
 }
-.table-style-with-padding{
+
+.table-style-with-padding {
     width: 100%;
     border: hotpink 1px solid;
-    margin: 3px;
+    margin: 7px;
     border-spacing: 7px; /*раасстояние между ячейками и строками*/
+}
+
+.table-border {
+    width: 100%;
+    border-collapse: collapse; /*убирает двойную рамку*/
+    border: hotpink 1px solid;
+    margin: 7px;
+
+}
+
+.table-border td,
+.table-border th {
+    border: green 1px solid;
+}
+
+.table-striped {
+    width: 100%;
+    border-collapse: collapse; /*убирает двойную рамку*/
+    border: hotpink 1px solid;
+    margin: 7px;
+}
+
+.table-striped tr:nth-child(even) { /*добавление стиля к четным строкам, оdd - к нечетным*/
+    background-color: turquoise;
+}
+
+.table-striped th {
+    background: lightgoldenrodyellow;
+}
+
+.table-striped-hover tr:hover{
+    background: #9e2bc7;
+}
+.table-style-hover tr:hover{
+    background: #563d7c;
 }
