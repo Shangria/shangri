@@ -1,0 +1,24 @@
+body{
+    font-family: "monospace";
+}
+.content-text {
+    width: 65%;
+    margin: 50px auto auto;
+    padding: 20px;
+}
+.rich-content {
+    background-color: #caebc2;
+    color: chocolate;
+    border-style: outset;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 13px;
+}
+.thick-text{
+    font-weight: bold;
+}
+.underscore-text{
+    text-decoration: underline;
+}
