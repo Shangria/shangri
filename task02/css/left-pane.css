@@ -51,7 +51,7 @@
     height: 25px;
     vertical-align: middle;
     content: "";
-    background: url(../img/arrows.png) no-repeat;
+    background: url(../../last-version/arrows.png) no-repeat;
     background-position: -70px -4px;
     background-clip: border-box;
     background-size: 100px;
