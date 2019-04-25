@@ -20,6 +20,7 @@
     margin: 7px;
 }
 
+.table-style-hover td ,
 .table-style td {
     vertical-align: middle;
 }
@@ -69,7 +70,8 @@
 .table-style-hover tr:hover td{
     background: #563d7c;
 }
-.table-striped-hover,.table-style-hover th{
+.table-striped-hover,
+.table-style-hover th{
     background: darkorange;
 }
 .table-combined {

@@ -37,8 +37,8 @@
     padding: 10px;
 }
 
-.table.big td,
-.table.big th {
+.table.small td,
+.table.small th {
     padding: 1px;
 }
 
@@ -47,10 +47,12 @@
     border: 1px solid gray;
 }
 
+.table.hover tr:hover td ,
+.table.zebra.hover tr:hover td {
+    background-color: #a4eba7;
+}
+
 .table.zebra tr:nth-child(even) td {
     background-color: #e2e2e2;
 }
 
-.table.hover tr:hover td {
-    background-color: #a4eba7;
-}

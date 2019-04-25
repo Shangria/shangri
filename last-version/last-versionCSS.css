@@ -1,11 +1,47 @@
-body{
+body {
     font-family: "monospace";
+    background-image: url("http://www.sclance.com/backgrounds/cloud-background-images/cloud-background-images_592561.jpg");
+    background-size: 100%;
 }
+
+.left-window {
+    position: fixed;
+    width: 310px;
+    height: 100%;
+    background: #3beb9c;
+    left: -277px;
+    top: 0;
+    border-radius: 5px;
+    transition: ease-in 1s;
+}
+
+.left-window:hover {
+    left: 0;
+}
+
+.mini-left-window {
+    position: absolute;
+    height: 100%;
+    width: 35px;
+    background: darkcyan;
+    right: 0;
+}
+.macro-left-window{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: #9e2bc7 1px solid;
+    background: url("/task02_1/img/arrows.png");
+    background-position: 70px 60px;
+    overflow: hidden;
+}
+
 .content-text {
     width: 65%;
     margin: 50px auto auto;
     padding: 20px;
 }
+
 .rich-content {
     background-color: #caebc2;
     color: chocolate;
@@ -16,9 +52,11 @@ body{
     text-align: justify;
     font-size: 13px;
 }
-.thick-text{
+
+.thick-text {
     font-weight: bold;
 }
-.underscore-text{
+
+.underscore-text {
     text-decoration: underline;
 }
