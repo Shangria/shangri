@@ -1,7 +1,8 @@
-body {
-    font-family: arial;
+*{
+    font-family: aakar;
 }
-.top-window{
+
+.top-window {
     position: fixed;
     top: 0;
     right: -500px;
@@ -9,8 +10,8 @@ body {
     height: 4%;
     padding: 5px;
     background: #a4eba7;
-    border-bottom-left-radius:  7px;
-    font-size: 25px ;
+    border-bottom-left-radius: 7px;
+    font-size: 25px;
     color: #eb5c13;
     white-space: nowrap;
     overflow: hidden;
@@ -18,17 +19,29 @@ body {
     transition: ease-in 1s;
     cursor: help;
 }
-.top-window:hover{
+
+.top-window:hover {
     right: 0;
 }
+
 .link {
     position: fixed;
-    width: 60px;
-    height: 90px;
-    right: 245px;
+    width: 320px;
+    height: 290px;
+    margin: 196px;
+    right: -198px;
     top: 335px;
+    border: 7px #ff7241 double;
+    border-bottom-left-radius: 20px;
 }
+
+.link iframe {
+    width: 100%;
+    height: 97%;
+}
+
 .left-window {
+    display: inline-block;
     position: fixed;
     width: 310px;
     height: 100%;
@@ -37,12 +50,17 @@ body {
     top: 0;
     border-radius: 5px;
     transition: ease-in 1s;
+    overflow: hidden;
 }
 
 .left-window:hover {
     left: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #eb5c13;
+}
 .mini-left-window {
     position: absolute;
     height: 100%;
@@ -50,9 +68,9 @@ body {
     background: #caebc2;
     right: 0;
 }
+
 .macro-left-window {
     position: relative;
-    display: inline-block;
     width: 33px;
     height: 43px;
     border: #9e2bc7 1px solid;
@@ -63,7 +81,8 @@ body {
     background-position: -31px -34px;
     overflow: hidden;
 }
-.left-window:hover .mini-left-window .macro-left-window{
+
+.left-window:hover .mini-left-window .macro-left-window {
     background-position: -83px -34px;
 }
 
