@@ -12,14 +12,21 @@ body {
     border-bottom-left-radius:  7px;
     font-size: 25px ;
     color: #eb5c13;
-    overflow: hidden;
     white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
     transition: ease-in 1s;
     cursor: help;
 }
 .top-window:hover{
     right: 0;
+}
+.link {
+    position: fixed;
+    width: 60px;
+    height: 90px;
+    right: 245px;
+    top: 335px;
 }
 .left-window {
     position: fixed;
