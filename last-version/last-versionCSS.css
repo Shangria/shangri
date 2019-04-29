@@ -1,7 +1,26 @@
 body {
-    font-family: "monospace";
+    font-family: arial;
 }
-
+.top-window{
+    position: fixed;
+    top: 0;
+    right: -500px;
+    width: 40%;
+    height: 4%;
+    padding: 5px;
+    background: #a4eba7;
+    border-bottom-left-radius:  7px;
+    font-size: 25px ;
+    color: #eb5c13;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: ease-in 1s;
+    cursor: help;
+}
+.top-window:hover{
+    right: 0;
+}
 .left-window {
     position: fixed;
     width: 310px;
@@ -21,16 +40,24 @@ body {
     position: absolute;
     height: 100%;
     width: 35px;
-    background: darkcyan;
+    background: #caebc2;
     right: 0;
 }
 .macro-left-window {
+    position: relative;
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 33px;
+    height: 43px;
     border: #9e2bc7 1px solid;
-    background-size: 40px 40px;
-
+    bottom: -50%;
+    background-image: url("q.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: -31px -34px;
+    overflow: hidden;
+}
+.left-window:hover .mini-left-window .macro-left-window{
+    background-position: -83px -34px;
 }
 
 .content-text {
