@@ -5,23 +5,23 @@
 .top-window {
     position: fixed;
     top: 0;
-    right: -500px;
-    width: 40%;
-    height: 4%;
+    right: 0;
+    width: 100px;
+    height: 30px;
     padding: 5px;
     background: #a4eba7;
     border-bottom-left-radius: 7px;
     font-size: 25px;
     color: #eb5c13;
     white-space: nowrap;
-    overflow: hidden;
+    overflow-x: hidden;
     text-overflow: ellipsis;
     transition: ease-in 1s;
     cursor: help;
 }
 
 .top-window:hover {
-    right: 0;
+    width: 1000px;
 }
 
 .link {
@@ -41,16 +41,16 @@
 }
 
 .left-window {
-    display: inline-block;
+    display: flex;
     position: fixed;
     width: 310px;
     height: 100%;
     background: #3beb9c;
     left: -277px;
     top: 0;
+
     border-radius: 5px;
     transition: ease-in 1s;
-    overflow: hidden;
 }
 
 .left-window:hover {
