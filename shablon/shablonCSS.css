@@ -3,3 +3,17 @@
     height: 113px;
     background: black;
 }
+@font-face {
+    font-family: myfont;
+    src: url("/shablon/myfont.ttf");
+}
+#title-of-page{
+    width: 286px;
+    height: 48px;
+    font-family: myfont;
+    font-size: 48px;
+    color: #eb5c13;
+}
+div#title-of-page>span{
+    color: #7d807a;
+}
