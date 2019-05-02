@@ -24,7 +24,7 @@ p{
 p span {
     color: #cbbde2;
 }
-.logo,.logo2,.logo3{
+.logo,.logo2,.logo3,.logo4{
     width: 20px;
     height: 20px;
 
@@ -42,6 +42,10 @@ p span {
     top: -85px;
     left: 1347px;
 
+}
+.logo4 {
+    top: -85px;
+    left: 1347px;
 }
 .links{
     position: relative;
