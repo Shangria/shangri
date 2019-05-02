@@ -1,4 +1,4 @@
-.bleak-banner{
+.bleak-banner {
     position: absolute;
     top: 0;
     left: 0;
@@ -6,59 +6,66 @@
     height: 113px;
     background: linear-gradient(to top left, purple, crimson, orangered, gold);;
 }
+
 @font-face {
     font-family: myfont;
     src: url("/shablon/myfont.ttf");
 }
-div{
+
+div {
     position: relative;
     width: 286px;
     height: 60px;
     left: 150px;
 }
-p{
+
+p {
     font-family: myfont;
     font-size: 45px;
     color: #7e1428;
 }
+
 p span {
     color: #cbbde2;
 }
-.logo,.logo2,.logo3,.logo4{
-    width: 20px;
-    height: 20px;
 
-}
-.logo{
-    top: -46px;
-    left: 1520px;
-}
-.logo2 {
-    top: -66px;
-    left: 1173px;
-
-}
-.logo3{
-    top: -85px;
-    left: 1347px;
-
-}
-.logo4 {
-    top: -85px;
-    left: 1347px;
-}
-.links{
-    position: relative;
+.links {
     left: 1000px;
-    top: -100px;
+    top: -285px;
     width: 570px;
 }
+
 .links p {
     word-spacing: 100px;
     font-size: 20px;
 }
-.links a{
 
+.links a {
     text-decoration: none;
     color: #cbbde2;
+}
+.logo,.logo2,.logo3,.logo4{
+    width: 25px;
+}
+
+.logo {
+    position: relative;
+    top: -46px;
+    width: 20px;
+    left: 1520px;
+}
+
+.logo2 {
+    top: -66px;
+    left: 1173px;
+}
+
+.logo3 {
+    top: -85px;
+    left: 1347px;
+}
+
+.logo4 {
+    top: -85px;
+    left: 1347px;
 }
