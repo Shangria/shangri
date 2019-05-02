@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 113px;
-    background: black;
+    background: linear-gradient(to top left, purple, crimson, orangered, gold);;
 }
 @font-face {
     font-family: myfont;
@@ -19,30 +19,34 @@ div{
 p{
     font-family: myfont;
     font-size: 45px;
-    color: #eb5c13;
+    color: #7e1428;
 }
 p span {
     color: #cbbde2;
 }
-.logo{
-    background: #cbbde2;
+.logo,.logo2,.logo3{
     width: 20px;
     height: 20px;
+
+}
+.logo{
     top: -46px;
     left: 1520px;
 }
 .logo2 {
-    background: #cbbde2;
-    width: 20px;
-    height: 20px;
     top: -66px;
     left: 1173px;
+
+}
+.logo3{
+    top: -85px;
+    left: 1347px;
 
 }
 .links{
     position: relative;
     left: 1000px;
-    top: -75px;
+    top: -100px;
     width: 570px;
 }
 .links p {
