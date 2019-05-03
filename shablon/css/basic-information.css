@@ -1,0 +1,25 @@
+.direction{
+    position: absolute;
+    font-family: fantasy;
+    font-size: 30px;
+    color: black;
+    bottom: 333px;
+    left: 500px;
+}
+input{
+    position: absolute;
+    bottom: 329px;
+    left: 500px;
+    width: 600px;
+    height: 40px;
+    background: #eb5c13;
+}
+button{
+    position: absolute;
+    bottom: 331px;
+    background: #7e1428;
+    box-sizing: border-box;
+    left: 1105px;
+    width: 200px;
+    height: 46px;
+}
