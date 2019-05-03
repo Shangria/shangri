@@ -3,12 +3,12 @@
     font-family: fantasy;
     font-size: 30px;
     color: black;
-    bottom: 333px;
+    bottom: 633px;
     left: 500px;
 }
 input{
     position: absolute;
-    bottom: 329px;
+    bottom: 629px;
     left: 500px;
     width: 600px;
     height: 40px;
@@ -16,10 +16,12 @@ input{
 }
 button{
     position: absolute;
-    bottom: 331px;
+    bottom: 631px;
     background: #7e1428;
     box-sizing: border-box;
     left: 1105px;
     width: 200px;
     height: 46px;
+    color: honeydew;
+    font-size: 25px;
 }
