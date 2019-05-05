@@ -1,0 +1,13 @@
+.upload-form {
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.upload-form input {
+    background-color: #FF7700;
+    height: 32px;
+    border-radius: 4px;
+    width: 320px;
+}
