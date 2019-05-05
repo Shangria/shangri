@@ -1,15 +1,11 @@
-
-body{
-    width: 100%;
-}
-
 .bleak-banner {
+
     position: absolute;
     box-sizing: border-box;
     top: 0;
     left: 0;
     width: 100%;
-    height: 18%;
+    height: 106px;
     background: linear-gradient(to top left, purple, crimson, orangered, gold);;
 }
 
@@ -19,10 +15,9 @@ body{
 }
 
 .title-of-page {
-    position: relative;
-    width: 100%px;
-    height: 40%px;
-    left: 150px;
+    width: 50%;
+    height: 40%;
+    padding-left: 10%;
 }
 
 p {
@@ -36,9 +31,9 @@ p span {
 }
 
 .links {
-    position: relative;
-    top: -44px;
-    left: 1000px;
+    margin-left: 52%;
+    width: auto;
+    margin-top: -2%;
 }
 
 .links p {
@@ -50,29 +45,29 @@ p span {
     text-decoration: none;
     color: #cbbde2;
 }
-
-.logo, .logo2, .logo3, .logo4 {
-    position: absolute;
-    top: 27px;
+table {
+    margin-top: -11%;
+    margin-left: 46%;
+    border-spacing: 119px;
 }
 
-.logo {
-    left: 1505px;
-}
+/*.logo {*/
+/*    margin-left: 78%;*/
+/*}*/
 
-.logo2 {
-    left: 1324px;
-}
+/*.logo2 {*/
+/*    margin-left: 36%;*/
+/*}*/
 
-.logo3 {
-    left: 1158px;
-}
+/*.logo3 {*/
+/*    margin-left: 60%;*/
 
-.logo4 {
-    left: 1000px;
-}
+/*}*/
 
+/*.logo4 {*/
+/*    margin-left: 52%;*/
+
+/*}*/
 img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
 }
