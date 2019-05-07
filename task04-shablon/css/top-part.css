@@ -1,8 +1,4 @@
-body {
-    width: 100%;
-    min-width: 1024px;
-    max-width: 1920px;
-}
+
 .bleak-banner {
 
     position: absolute;
@@ -35,45 +31,24 @@ p span {
     color: #cbbde2;
 }
 
-.links {
-    margin-left: 52%;
-    max-width: 100%;
-    margin-top: -2%;
-}
-
-.links p {
-    word-spacing: 100px;
-    font-size: 20px;
-}
-
-.links a {
+table a {
     text-decoration: none;
     color: #cbbde2;
+    font-size: 20px;
 }
-table {
-    margin-top: -33vh;
-    margin-left: 145vh;
-    border-spacing: 119px;
-    z-index: 1;
+img[src] {
+    width: 49%;
 }
-
-/*.logo {*/
-/*    margin-left: 78%;*/
-/*}*/
-
-/*.logo2 {*/
-/*    margin-left: 36%;*/
-/*}*/
-
-/*.logo3 {*/
-/*    margin-left: 60%;*/
-
-/*}*/
-
-/*.logo4 {*/
-/*    margin-left: 52%;*/
-
-/*}*/
-img {
-    width: 40px;
+.table {
+    margin-top: -155px;
+    margin-left: 64%;
+    width: 20%;
+    height: 20%;
+    padding: 4%;
+}
+table{
+    width: 100%;
+}
+table>td {
+   width:  1%
 }
