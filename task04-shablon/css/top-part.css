@@ -47,7 +47,7 @@
 
 @font-face {
     font-family: myfont;
-    src: url("/task04-shablon/myfont.ttf");
+    src: url("../myfont.ttf");
 }
 
 /*это какаха*/
