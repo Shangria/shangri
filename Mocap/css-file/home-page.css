@@ -1,0 +1,8 @@
+.section{
+    height: 100%;
+}
+.basic-information.mountains{
+    display: inline-block;
+    width: 50%;
+    border: 1px black;
+}
