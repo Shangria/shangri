@@ -1,75 +1,66 @@
-
-.bleak-banner {
-
-    position: absolute;
+.banner {
     box-sizing: border-box;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100px;
-    background: linear-gradient(to top left, purple, crimson, orangered, gold);;
+    background: linear-gradient(to top left, purple, crimson, orangered, gold);
+    color: white;
 }
 
-.bleak-banner .title-of-page {
-    float: left;
-    width: 50%;
-    font-family: myfont;
-    font-size: 45px;
-    color: #7e1428;
-    margin-top: 21px;
-    margin-left: 30px;
+.banner .title-of-page {
+    font-size: 50px;
+    margin-left: 140px;
 }
 
-.bleak-banner .title-of-page span {
-    color: #cbbde2;
+.banner .title-of-page .title-highlight {
+    color: #eb5c13;
 }
 
 
-.bleak-banner table {
-    float: right;
+.banner .navigation-links {
+
 }
 
-
-.bleak-banner table td {
+.banner .navigation-links .navigation-link {
     text-align: center;
-    padding: 5px 10px;
+    padding-top: 20px;
 }
 
-.bleak-banner table a {
-    text-decoration: none;
-    color: #cbbde2;
-    font-size: 20px;
+.banner .navigation-links .navigation-link a {
+    display: block;
+    padding: 10px 0 7px;
+    position: relative;
+    color: white;
 }
 
-.bleak-banner table td img {
-    width: 50px;
+.banner .navigation-links .navigation-link a:hover:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
 }
 
-@font-face {
-    font-family: myfont;
-    src: url("../myfont.ttf");
+.banner .navigation-links .navigation-link img {
+    height: 32px;
 }
 
-/*это какаха*/
 
-/*table a {*/
-    /*text-decoration: none;*/
-    /*color: #cbbde2;*/
-    /*font-size: 20px;*/
-/*}*/
+.upload-form {
+    margin: 20px auto;
+    text-align: center;
+    width: 70%;
+}
 
+.upload-form p {
+    color: #9e2bc7;
+    font-size: 30px;
+    font-weight: bold;
 
+}
 
-/*.table {*/
-/*margin-top: -155px;*/
-/*margin-left: 64%;*/
-/*width: 20%;*/
-/*height: 20%;*/
-/*padding: 4%;*/
-/*}*/
-/*table{*/
-/*width: 100%;*/
-/*}*/
-/*table>td {*/
-/*width:  1%*/
-/*}*/
+.upload-form button.browse-button {
+    position: absolute;
+    top: 2px;
+    right: 34px;
+}
