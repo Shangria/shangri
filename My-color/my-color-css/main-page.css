@@ -1,2 +1,32 @@
-body{
+html {
+    background: url("../my-color-img/background.jpg") center center fixed no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    width: 50%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.main-container.logo {
+    padding: 50px;
+}
+
+.content-box .header {
+    height: 60px;
+    background: linear-gradient(to bottom, #fefcea, black, #000000);
+    margin-bottom: 10px;
+    line-height: 61px;
+    border-radius: 3px;
+}
+.content-box .header .menu-about,.menu-blog,.menu-contact,.menu-home,.menu-gallery {
+    display: inline;
+    padding: 25px;
+
+}
+.content-box .header a {
+    text-decoration: none;
+    color: white;
+    font: 25px bold;
 }
