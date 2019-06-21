@@ -20,13 +20,31 @@ html {
     line-height: 61px;
     border-radius: 3px;
 }
-.content-box .header .menu-about,.menu-blog,.menu-contact,.menu-home,.menu-gallery {
+.menu-about:hover,.menu-gallery:hover, .menu-contact:hover, .menu-home:hover, .menu-blog:hover{
+    background-color: #eb5c13;
+}
+
+.content-box .header .menu-about, .menu-blog, .menu-contact, .menu-home, .menu-gallery {
     display: inline;
     padding: 25px;
-
 }
+
 .content-box .header a {
     text-decoration: none;
     color: white;
     font: 25px bold;
+}
+.content-box .article-text{
+    background-color: #b4b4b4;
+    padding: 20px;
+    margin-top: -11px;
+}
+.content-box .article-text .information-post{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #b6ffb3;
+    border: 3px #f9e48d solid;
+    width: 33%;
+    padding: 21px 7px;
+    overflow: hidden;
 }
