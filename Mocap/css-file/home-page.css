@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
 body {
     width: 100%;
 }
-.main-content-box{
+
+.main-content-box {
     position: relative;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
 }
 
 .main-content-box .information-board {
@@ -37,9 +36,11 @@ body {
     width: 54%;
     overflow: hidden;
 }
+
 .main-content-box .picture-section img {
     width: 100%;
 }
+
 .main-content-box .section-links {
     box-sizing: border-box;
     position: absolute;
@@ -49,22 +50,32 @@ body {
     background-color: #f9e48d;
     margin-top: -16px;
 }
-.main-content-box .section-links .link-properties{
+
+.main-content-box .section-links .link-properties {
     width: 70%;
     margin: 64px 0 0 90px;
 }
-.main-content-box .section-links .link-properties a{
+
+.main-content-box .section-links .link-properties a {
     color: #9e2bc7;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
 }
+
 .main-content-box .section-fact {
     box-sizing: border-box;
     position: absolute;
     right: 527px;
     bottom: -290px;
     width: 28%;
-    height: 55%;
+    height: 61%;
     background-color: #000000;
+}
+
+.main-content-box .section-fact .teg {
+    width: 100%;
+    color: white;
+    font-size: 21px;
+    margin: 45px 117px;
 }
