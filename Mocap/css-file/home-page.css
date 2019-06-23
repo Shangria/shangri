@@ -1,3 +1,70 @@
-@font-face {
-    font-family: Chewy;
-    src: url('/');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+body {
+    width: 100%;
+}
+.main-content-box{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content-box .information-board {
+    width: 45%;
+    display: inline-block;
+}
+
+.main-content-box .information-board .heading {
+    font: 150px bold;
+    font-family: 'Anton', sans-serif;
+    padding-top: 280px;
+    padding-left: 100px;
+
+}
+
+.main-content-box .information-board .travel-text {
+    font: 19px "Varela Round";
+    padding-top: 15px;
+    padding-left: 33px;
+    margin-right: 37px;
+    line-height: 35px;
+}
+
+.main-content-box .picture-section {
+    display: inline-block;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 54%;
+    overflow: hidden;
+}
+.main-content-box .picture-section img {
+    width: 100%;
+}
+.main-content-box .section-links {
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 49%;
+    background-color: #f9e48d;
+    margin-top: -16px;
+}
+.main-content-box .section-links .link-properties{
+    width: 70%;
+    margin: 64px 0 0 90px;
+}
+.main-content-box .section-links .link-properties a{
+    color: #9e2bc7;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+.main-content-box .section-fact {
+    box-sizing: border-box;
+    position: absolute;
+    right: 527px;
+    bottom: -290px;
+    width: 28%;
+    height: 55%;
+    background-color: #000000;
+}
