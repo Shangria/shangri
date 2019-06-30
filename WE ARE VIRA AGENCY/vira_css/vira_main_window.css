@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: black 1px solid;
+}
+html {
+    background-image: url("../vira_img/1.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.main-window {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.main-window .intro-container{
+    margin: 0 auto;
+    width: 100vh;
+}
+.main-window .intro-container .intro {
+    text-align: center;
+    padding-top: 459px;
+}
