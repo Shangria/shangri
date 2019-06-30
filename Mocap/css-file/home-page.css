@@ -1,61 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .main-content-box {
-    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
 }
 
 .main-content-box .information-board {
     width: 45%;
-    display: inline-block;
+    position: relative;
+}
+
+.main-content-box .information-board .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main-content-box .information-board .icon img {
+    width: 40px;
 }
 
 .main-content-box .information-board .heading {
     font: 150px bold;
+    margin: calc(50% - 75px) auto auto;
+    padding-left: 30px;
     font-family: 'Anton', sans-serif;
-    padding-top: 280px;
-    padding-left: 100px;
+    letter-spacing: 27px;
 
 }
 
 .main-content-box .information-board .travel-text {
     font: 19px "Varela Round";
-    padding-top: 15px;
-    padding-left: 33px;
-    margin-right: 37px;
+    padding: 20px 0 20px 30px;
     line-height: 35px;
 }
 
 .main-content-box .picture-section {
-    display: inline-block;
-    background-size: cover;
-    box-sizing: border-box;
-    width: 54%;
-    overflow: hidden;
-    margin-left: 15px;
+    position: relative;
+    width: 55%;
 }
 
-.main-content-box .picture-section img {
+.main-content-box .picture-section .main-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 65%;
+}
+
+.main-content-box .picture-section .main-picture img {
     max-width: 100%;
 }
 
+
 .main-content-box .section-links {
-    box-sizing: border-box;
     position: absolute;
+    bottom: 0;
     right: 0;
-    width: 30%;
-    height: 49%;
+    width: 50%;
+    height: 35%;
     background-color: #f9e48d;
-    margin-top: -16px;
 }
 
 .main-content-box .section-links .link-properties {
+    margin: 40px auto;
     width: 70%;
-    margin: 64px 0 0 90px;
 }
 
 .main-content-box .section-links .link-properties a {
@@ -65,19 +80,26 @@
     text-align: center;
 }
 
+
 .main-content-box .section-fact {
-    box-sizing: border-box;
     position: absolute;
-    right: 527px;
-    bottom: -290px;
-    width: 29%;
-    height: 61%;
-    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    padding: 30px 20px 0 20px;
+    height: 45%;
+    background-color: rgba(0, 0, 0, 0.42);
+    z-index:100;
 }
 
+.main-content-box .section-fact {
+
+}
+
+
 .main-content-box .section-fact .teg {
-    width: 100%;
+    text-align: left;
     color: white;
     font-size: 19px;
-    margin: 45px 117px;
+    margin-top: 15px
 }
