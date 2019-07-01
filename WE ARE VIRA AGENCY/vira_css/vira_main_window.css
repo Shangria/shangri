@@ -18,6 +18,9 @@ html{
     border-bottom: #a2a2a2 1px solid;
     margin: 0 auto;
 }
+.main-window .header-menu .logo{
+    padding-top: 30px;
+}
 .main-window .intro-container{
     margin: 0 auto;
 }
