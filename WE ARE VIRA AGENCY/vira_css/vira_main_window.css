@@ -20,6 +20,11 @@ html{
 }
 .main-window .header-menu .logo{
     padding-top: 30px;
+    display: inline;
+}
+.main-window .header-menu .menu{
+    display: inline;
+    padding-left: 730px;
 }
 .main-window .intro-container{
     margin: 0 auto;
