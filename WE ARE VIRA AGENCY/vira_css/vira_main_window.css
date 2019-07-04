@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+.wrapper{
     background: url("../vira_img/1.jpg") center center fixed no-repeat;
     background-size: cover;
 }
