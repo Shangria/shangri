@@ -7,7 +7,7 @@
 
 .information-section {
     width: 100%;
-    background-color: snow;
+    background-color: #e1e1e1;
 }
 
 .information-section .about-inform {
@@ -16,8 +16,38 @@
 }
 
 .information-section .about-inform .title {
-    font-size: 45px;
-    font-weight: bold;
+    font: 40px bold;
     padding-top: 70px;
     text-align: center;
 }
+.information-section .about-inform .inform{
+    width: 70%;
+    padding-top: 100px;
+    font: 22px italic;
+    font-family:"Fira Code Medium";
+    text-align: center;
+    color: #a2a2a2;
+}
+.information-section .about-inform img{
+    padding-left: 82px;
+    padding-top: 100px;
+}
+.information-section .about-inform p{
+    text-align: center;
+    padding-top: 10px;
+}
+.information-section .work-direction {
+    background-color: white;
+    width: 100%;
+}
+.information-section .work-direction .icon{
+    width: 80%;
+    display: inline-block;
+}
+.information-section .work-direction .icon .icon-diamond {
+    width: 20%;
+    height: 60%;
+    background-color: #3bc051;
+    border: black 1px solid;
+}
+
