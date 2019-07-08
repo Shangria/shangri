@@ -41,13 +41,33 @@
     width: 100%;
 }
 .information-section .work-direction .icon{
-    width: 80%;
-    display: inline-block;
-}
-.information-section .work-direction .icon .icon-diamond {
-    width: 20%;
-    height: 60%;
-    background-color: #3bc051;
-    border: black 1px solid;
-}
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-content:center;
 
+}
+.information-section .work-direction .icon .icon-information{
+    width: 30%;
+    text-align: center;
+}
+.information-section .work-direction .icon .icon-information .picture-icon,.picture-icon-2,.picture-icon-3 {
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    background-color: #31c0a5;
+    border: #3bc051 1px solid;
+    border-radius: 50%;
+    font-size: 25px;
+    color: snow;
+
+}
+.picture-icon:before {
+    content: '\2042';
+}
+.picture-icon-2:before{
+    content: "\2739";
+}
+.picture-icon-3:before{
+    content: "\2600";
+}
