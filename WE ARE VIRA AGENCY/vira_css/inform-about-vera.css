@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: black 1px solid;
+    border: 1px solid;
+
 }
 
 .information-section {
@@ -17,7 +18,7 @@
 
 .information-section .about-inform .title {
     font: 40px bold;
-    padding-top: 70px;
+    padding: 70px 10px;
     text-align: center;
 }
 
@@ -31,8 +32,8 @@
 }
 
 .information-section .about-inform img {
-    padding-left: 82px;
-    padding-top: 100px;
+    padding-left: 30%;
+    padding-top: 20%;
 }
 
 .information-section .about-inform p {
@@ -69,22 +70,61 @@
     line-height: 8em;
     box-shadow: 0 0 0 1px #D2973D inset, 0 0 0 10px white inset;
 }
-.information-section .work-direction .icon .icon-information span{
+
+.information-section .work-direction .icon .icon-information span {
     font-size: 50px;
 }
 
-.information-section .work-direction .icon .icon-information .picture-icon:hover {
+.information-section .work-direction .icon .icon-information:hover .picture-icon {
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
     0 1px 2px rgba(0, 0, 0, 0.1);
-    transition-duration: 0.2s;
+    transition-duration: 3s;
 }
 
-.information-section .work-direction .icon .icon-information .picture-icon-2:hover {
+.information-section .work-direction .icon .icon-information:hover .picture-icon-2 {
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
     0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.information-section .work-direction .icon .icon-information .picture-icon-3:hover {
+.information-section .work-direction .icon .icon-information:hover .picture-icon-3 {
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
     0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.information-section .work-direction .icon .icon-information p {
+    color: black;
+    font: normal small-caps bold normal 20px serif;
+    width: 100%;
+    margin: 10px;
+}
+
+.information-section .work-direction .icon .icon-information p ::after {
+    content: "-";
+}
+
+.information-section .work-direction .icon .icon-information .about-us {
+    font: italic 17px fantasy;
+    color: #7a7a7a;
+    margin: 20px 15px;
+}
+
+.our-designer .img-designer {
+    display: inline;
+    width: 50%;
+}
+
+.our-designer {
+    background-color: #f7f7f7;
+}
+.our-designer .about-designer p{
+    font: normal small-caps bold normal 40px serif;
+    text-align: center;
+    margin: 100px auto;
+}
+.our-designer .about-designer .inform-about-designer {
+    display: inline;
+    width: 50%;
+    font: 22px italic;;
+    text-align: center;
+    color: #a2a2a2;
 }
