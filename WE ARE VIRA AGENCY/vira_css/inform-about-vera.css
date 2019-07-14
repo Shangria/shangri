@@ -20,54 +20,71 @@
     padding-top: 70px;
     text-align: center;
 }
-.information-section .about-inform .inform{
+
+.information-section .about-inform .inform {
     width: 70%;
     padding-top: 100px;
     font: 22px italic;
-    font-family:"Fira Code Medium";
+    font-family: "Fira Code Medium";
     text-align: center;
     color: #a2a2a2;
 }
-.information-section .about-inform img{
+
+.information-section .about-inform img {
     padding-left: 82px;
     padding-top: 100px;
 }
-.information-section .about-inform p{
+
+.information-section .about-inform p {
     text-align: center;
     padding-top: 10px;
 }
+
 .information-section .work-direction {
     background-color: white;
     width: 100%;
 }
-.information-section .work-direction .icon{
+
+.information-section .work-direction .icon {
     width: 60%;
     margin: 0 auto;
     display: flex;
-    align-content:center;
+    align-content: center;
 
 }
-.information-section .work-direction .icon .icon-information{
+
+.information-section .work-direction .icon .icon-information {
     width: 30%;
     text-align: center;
 }
-.information-section .work-direction .icon .icon-information .picture-icon,.picture-icon-2,.picture-icon-3 {
-    display: inline-block;
-    width: 5em;
-    height: 5em;
-    background-color: #31c0a5;
-    border: #3bc051 1px solid;
-    border-radius: 50%;
-    font-size: 25px;
-    color: snow;
 
+.information-section .work-direction .icon .icon-information .picture-icon, .picture-icon-2, .picture-icon-3 {
+    display: inline-block;
+    width: 8em;
+    height: 8em;
+    background-color: #31c0a5;
+    border: #28c0bb 1px solid;
+    border-radius: 50%;
+    color: snow;
+    line-height: 8em;
+    box-shadow: 0 0 0 1px #D2973D inset, 0 0 0 10px white inset;
 }
-.picture-icon:before {
-    content: '\2042';
+.information-section .work-direction .icon .icon-information span{
+    font-size: 50px;
 }
-.picture-icon-2:before{
-    content: "\2739";
+
+.information-section .work-direction .icon .icon-information .picture-icon:hover {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.2s;
 }
-.picture-icon-3:before{
-    content: "\2600";
+
+.information-section .work-direction .icon .icon-information .picture-icon-2:hover {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.information-section .work-direction .icon .icon-information .picture-icon-3:hover {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.1);
 }
