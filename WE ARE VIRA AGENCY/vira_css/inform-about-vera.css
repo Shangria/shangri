@@ -108,9 +108,12 @@
     margin: 20px 15px;
 }
 
+.our-designer {
+    width: 49%;
+}
 .our-designer .img-designer {
-    display: inline;
-    width: 50%;
+    background: no-repeat center contain;
+    float: left;
 }
 
 .our-designer {
@@ -122,7 +125,7 @@
     margin: 100px auto;
 }
 .our-designer .about-designer .inform-about-designer {
-    display: inline;
+    float: right;
     width: 50%;
     font: 22px italic;;
     text-align: center;
