@@ -106,19 +106,22 @@
     font: italic 17px fantasy;
     color: #7a7a7a;
     margin: 20px 15px;
-}
 
+}
 .our-designer {
-    width: 49%;
+    max-width: 48%;
 }
 .our-designer .img-designer {
-    background: no-repeat center contain;
-    float: left;
-}
+    height: 580px;
+    background-image: url(../vira_img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
-.our-designer {
+}
+.our-designer .about-designer {
     background-color: #f7f7f7;
 }
+
 .our-designer .about-designer p{
     font: normal small-caps bold normal 40px serif;
     text-align: center;
@@ -126,8 +129,8 @@
 }
 .our-designer .about-designer .inform-about-designer {
     float: right;
-    width: 50%;
-    font: 22px italic;;
+    font: 17px italic;;
     text-align: center;
     color: #a2a2a2;
+
 }
