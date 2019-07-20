@@ -108,29 +108,37 @@
     margin: 20px 15px;
 
 }
-.our-designer {
-    max-width: 48%;
-}
 .our-designer .img-designer {
-    height: 580px;
-    background-image: url(../vira_img/2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 50%;
+    height: 508px;
+    overflow: hidden;
+    float: left;
 
 }
+
+.our-designer .img-designer img {
+    max-width: 100%;!important;
+    object-fit: none;
+
+}
+
 .our-designer .about-designer {
     background-color: #f7f7f7;
+    width: 50%;
+    overflow: hidden;
+    float: right;
 }
 
-.our-designer .about-designer p{
-    font: normal small-caps bold normal 40px serif;
+.our-designer .about-designer p {
+    font: normal small-caps bold normal 200% serif;
     text-align: center;
     margin: 100px auto;
 }
+
 .our-designer .about-designer .inform-about-designer {
-    float: right;
     font: 17px italic;;
     text-align: center;
     color: #a2a2a2;
+    margin-left: 100px;
+    margin-right: 100px;
 
-}
