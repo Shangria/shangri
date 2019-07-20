@@ -125,6 +125,7 @@
 .our-designer .about-designer {
     background-color: #f7f7f7;
     width: 50%;
+    height: 508px;
     overflow: hidden;
     float: right;
 }
@@ -141,4 +142,5 @@
     color: #a2a2a2;
     margin-left: 100px;
     margin-right: 100px;
+}
 
