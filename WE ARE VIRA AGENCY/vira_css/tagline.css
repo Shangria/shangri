@@ -3,11 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .tagline {
+    background-image: url("../vira_img/3.jpg");
     width: 100%;
     height: 400px;
     overflow: hidden;
 }
-.tagline.wrapper-transparency{
-    background-color: rgba(0, 0, 0, 0.5);
+
+.tagline .wrapper-transparency {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.tagline .wrapper-transparency .tagline-text {
+    color: snow;
+    font: italic normal bold 40px "Lato Black";
+    margin: 80px 20px;
+    text-align: center;
+
+}
+
+.tagline .wrapper-transparency img {
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.tagline .wrapper-transparency p{
+    color: snow;
+    ont: italic normal bold 20px "Lato Black";
+    text-align: center;
+    margin-top: -50px;
 }

@@ -117,8 +117,7 @@
 }
 
 .our-designer .img-designer img {
-    max-width: 100%;!important;
-    object-fit: none;
+    background-size: cover;
 
 }
 
