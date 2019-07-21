@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid;
 
 }
 
@@ -35,6 +34,7 @@
 .our-work .about-work .wrapper-about-work {
     display: flex;
     margin-bottom: 10%;
+    position: relative;
 }
 
 .our-work .about-work .wrapper-about-work .inform-about-work img{
@@ -62,4 +62,21 @@
     font: 17px italic;
     text-align: center;
     color: #b3b3b3;
+}
+.our-work .about-work .wrapper-about-work .inform-about-work .social-icon{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: #28c0bb;
+    border: #28c0bb 1px solid;
+    margin-top: 30px;
+    margin-right: 3px;
+}
+.our-work .about-work .wrapper-about-work .inform-about-work p +.social-icon{
+    margin-left: 45%;
+}
+.our-work .about-work .wrapper-about-work .inform-about-work .social-icon:hover{
+    background-color: #ff3c44;
+    border-radius: 100%;
+    border: black 3px solid;
 }
