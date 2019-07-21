@@ -32,8 +32,8 @@
 }
 
 .information-section .about-inform img {
-    padding-left: 30%;
-    padding-top: 20%;
+    display: block;
+    margin: 0 auto;
 }
 
 .information-section .about-inform p {
