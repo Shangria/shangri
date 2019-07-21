@@ -33,4 +33,9 @@
     ont: italic normal bold 20px "Lato Black";
     text-align: center;
     margin-top: -50px;
+    margin-bottom: 2%;
+}
+.tagline .wrapper-transparency::after{
+    content: url("../vira_img/mouse.png");
+    margin-left: 50%;
 }
