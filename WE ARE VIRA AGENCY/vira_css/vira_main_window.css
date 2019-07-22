@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-    background: url("../vira_img/1.jpg") center center fixed no-repeat;
+    background: url("../vira_img/1.jpg") center center no-repeat;
     background-size: cover;
 }
 .main-window {
