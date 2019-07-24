@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feedback-window {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.feedback-window .feedback-window-mini {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feedback-window .feedback-window-mini .title-feedback {
+    position: relative;
+    font: 40px bold;
+    padding: 70px 10px;
+    text-align: center;
+}
+
+.feedback-window .feedback-window-mini .title-feedback::after {
+    content: '\2014';
+    position: absolute;
+    color: #28c0bb;
+    font-weight: bold;
+    width: 12%;
+    top: 119px;
+    left: 45%;
+}
+
+.feedback-window .feedback-window-mini .wrapper-feedback {
+    display: flex;
+    margin-bottom: 10%;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details-1::before{
+    content: '\270d';
+    font-size: 40px;
+    color: #35fff9;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details-2::before{
+    content: '\260e';
+    font-size: 40px;
+    color: #35fff9;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details-3::before{
+    content: '\2709';
+    font-size: 40px;
+    color: #35fff9;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details {
+    width: 30%;
+    position: relative;
+    height: 30%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details span::before{
+    content: '\2014';
+    position: absolute;
+    top: 58%;
+    left: 44%;
+    color: #28c0bb;
+    font-weight: bold;
+    width: 12%;
+}
+.feedback-window .feedback-window-mini .wrapper-feedback .feedback-details span {
+    color: #b4b4b4;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: italic fantasy;
+    margin-bottom: 25px;
+    margin-top: 92px;
+}
+.feedback-window .icon{
+    width: 10%;
+    position: absolute;
+    height: 10%;
+    left: 50%;
+}
+.feedback-window .icon .social-icon{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: #28c0bb;
+    border: #28c0bb 1px solid;
+    margin-left: 10px;
+}
