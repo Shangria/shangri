@@ -17,13 +17,8 @@
     height: 10%;
     position: relative;
 }
-.wrapper .header-menu::after .header-title{
-    content: '\2600';
-    font-size: 78px;
-    position: absolute;
 
-}
-.wrapper .header-menu .header-title{
+.wrapper .header-menu span{
     font-size: 60px;
     color: #fffe9b;
     margin-left: 33%;
