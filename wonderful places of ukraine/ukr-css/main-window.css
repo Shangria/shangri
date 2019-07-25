@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.wrapper {
+    background: url("../ukr-img/1.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.wrapper .header-menu {
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.wrapper .header-menu::after .header-title{
+    content: '\2600';
+    font-size: 78px;
+    position: absolute;
+
+}
+.wrapper .header-menu .header-title{
+    font-size: 60px;
+    color: #fffe9b;
+    margin-left: 33%;
+}
+
+.wrapper .transparent-background {
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    background-image: linear-gradient(to top, cornflowerblue 10%, yellow 60%, transparent 100%);
+    left: 33%;
+    top: 55%;
+}

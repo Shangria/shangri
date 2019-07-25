@@ -94,3 +94,8 @@
     border: #28c0bb 1px solid;
     margin-left: 10px;
 }
+.feedback-window .icon .social-icon:hover{
+    background-color: #ff3c44;
+    border-radius: 100%;
+    border: black 3px solid;
+}
