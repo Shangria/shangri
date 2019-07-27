@@ -4,6 +4,13 @@
     box-sizing: border-box;
     border: 1px solid white;
 }
+@font-face {
+    font-family: 'Web font';
+    src: url('../font/w') format('woff2'),
+    url('webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .wrapper {
     background: url("../ukr-img/1.jpg") center center no-repeat;
@@ -20,7 +27,7 @@
 
 .wrapper .header-menu span{
     font-size: 60px;
-    color: #fffe9b;
+    color:  #fffe9b;
     margin-left: 33%;
 }
 
