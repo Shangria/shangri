@@ -2,38 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid white;
-}
-@font-face {
-    font-family: 'kraM';
-    url('/font/font/kraM.ttf');
 }
 
 .wrapper {
-    background: url("../ukr-img/1.jpg") center center no-repeat;
+    background: url("../ukr-img/b3.jpg") center center no-repeat;
     background-size: cover;
-    height: 100vh;
-    position: relative;
+    height: 90vh;
+
 }
 
-.wrapper .header-menu {
+.wrapper .header {
+    height: 80px;
     width: 100%;
-    height: 10%;
+    background-color: #ffab3e;
+}
+
+.wrapper .header .header-menu {
     position: relative;
 }
 
-.wrapper .header-menu span{
-    font-size: 60px;
-    color:  #fffe9b;
-    margin-left: 33%;
-    font-family: kraM fantasy;
+.wrapper .header .header-menu span {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 17px;
+    letter-spacing: 3px;
 }
 
-.wrapper .transparent-background {
+.wrapper .header .header-menu .menu-button {
+    margin-left: 700px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: -33px;
+}
+
+.wrapper .header .header-menu .menu-button li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.wrapper .header .header-menu .icon {
     position: absolute;
-    height: 50%;
-    width: 30%;
-    background-image: linear-gradient(to top, cornflowerblue 10%, yellow 60%, transparent 100%);
-    left: 33%;
-    top: 55%;
+    top: 20px;
+    right: 150px;
+
 }
