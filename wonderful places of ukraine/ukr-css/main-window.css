@@ -5,9 +5,8 @@
     border: 1px solid white;
 }
 @font-face {
-    font-family: 'Web-font';
-    src: url('../font/w')
-
+    font-family: 'kraM';
+    url('/font/font/kraM.ttf');
 }
 
 .wrapper {
@@ -27,6 +26,7 @@
     font-size: 60px;
     color:  #fffe9b;
     margin-left: 33%;
+    font-family: kraM fantasy;
 }
 
 .wrapper .transparent-background {
