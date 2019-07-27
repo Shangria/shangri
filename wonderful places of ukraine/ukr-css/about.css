@@ -2,5 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+}
+.wrapper-about{
+    display: flex;
+}
+.wrapper-about .picture-about{
+    background: url("../ukr-img/ab1.jpg") bottom center no-repeat;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 50px;
+    box-shadow: 0 0 24px 4px rgba(181, 181, 181, 0.7);
+}
+.wrapper-about .info-about {
+    width: 30%;
+    margin: 50px 150px;
+}
+.wrapper-about .info-about h2{
+    color: #ffab3e;
+    margin-bottom: 20px;
+}
+.wrapper-about .info-about p{
+    font-size: 40px;
+    line-height: 45px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.wrapper-about .info-about .text-about{
+    color: #636363;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.wrapper-about .info-about h1{
+    color: palevioletred;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 20px 0 30px 0;
+}
+.wrapper-about .info-about input {
+    background-color: #ffab3e;
+    height: 40px;
+    width: 115px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
 }

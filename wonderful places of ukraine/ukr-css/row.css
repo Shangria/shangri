@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row .row-1 {
+    display: flex;
+}
+
+.row .row-1 .our-services {
+    background: url("../ukr-img/s3.jpg") center no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+}
+
+.row .row-1 .our-services p, h3 {
+    color: #ffab3e;
+    margin: 30px 60px;
+    font-size: 30px;
+}
+
+.row .row-1 .our-services h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.row .row-1 .general-information-1 {
+    background: url("../ukr-img/s1.jpg") center no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 350px;
+}
+.row .row-1 .general-information-1 .title-about{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 30px;
+}
+.row .row-1 .general-information-1 .title-about+span{
+    color: black;
+    display: block;
+    font-size: 15px;
+    margin: 30px;
+}
+.row .row-1 .general-information-2 {
+    background-color: palevioletred;
+    height: 350px;
+    width: 25%;
+}
