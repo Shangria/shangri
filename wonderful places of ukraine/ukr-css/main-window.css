@@ -5,11 +5,9 @@
     border: 1px solid white;
 }
 @font-face {
-    font-family: 'Web font';
-    src: url('../font/w') format('woff2'),
-    url('webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Web-font';
+    src: url('../font/w')
+
 }
 
 .wrapper {
