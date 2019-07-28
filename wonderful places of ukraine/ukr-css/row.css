@@ -32,20 +32,71 @@
     width: 25%;
     height: 350px;
 }
-.row .row-1 .general-information-1 .title-about{
+
+.row .row-1 .general-information-1 .title-about {
     color: white;
     font-size: 30px;
     font-family: sans-serif;
     margin: 30px;
 }
-.row .row-1 .general-information-1 .title-about+span{
+
+.row .row-1 .general-information-1 .title-about + span {
     color: black;
     display: block;
     font-size: 15px;
     margin: 30px;
 }
+
 .row .row-1 .general-information-2 {
     background-color: palevioletred;
     height: 350px;
     width: 25%;
+}
+.row .row-2 .our-services-row-3 {
+    position: relative
+}
+.row .row-2 .our-services-row-2 .our-services-column {
+    background: url("../ukr-img/s4.jpg") center no-repeat;
+    height: 600px;
+    width: 400px;
+    position: absolute;
+}
+.row .row-2 .our-services-row-2 .our-services-column .title-about{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 30px;
+}
+.row .row-2 .our-services-row-3 .our-services-column-1 {
+    background: url("../ukr-img/s2.jpg") center no-repeat;
+    height: 355px;
+    width: 355px;
+    position: absolute;
+    left: 400px;
+}
+.row .row-2 .our-services-row-3 .our-services-column-1 .title-about + span {
+    color: black;
+    display: block;
+    font-size: 15px;
+    margin: 30px;
+}
+.row .row-2 .our-services-row-3 .our-services-column-1 .title-about{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 30px;
+}
+.row .row-2 .our-services-row-3 .our-services-column-2{
+    background-color: palevioletred;
+    height:246px;
+    width:355px ;
+    position: absolute;
+    left: 400px;
+    top: 354px;
+}
+.row .row-2 .our-services-row-3 .our-services-column-2 .title-about{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 30px;
 }
