@@ -4,48 +4,91 @@
     box-sizing: border-box;
 }
 
+.social-networks {
+    background: url("../ukr-img/b2.jpg") center no-repeat fixed;
+    background-size: cover;
+}
+
 .social-networks .social-networks-container .our-workers {
     display: flex;
     justify-content: center;
 }
-.social-networks .social-networks-container .our-workers .workers{
+
+.social-networks .social-networks-container {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+
+.social-networks .social-networks-container .our-workers .workers {
     max-width: 20%;
     text-align: center;
 }
-.social-networks .social-networks-container .our-workers .workers img{
+
+.social-networks .social-networks-container .our-workers .workers img {
     box-shadow: 0 0 24px 4px rgba(181, 181, 181, 0.7);
 
 }
-.social-networks .social-networks-container h2,p {
+
+.social-networks .social-networks-container h2, p {
     color: #ffab3e;
     font-size: 30px;
     text-align: center;
     margin: 50px 0 50px;
 }
-.social-networks .social-networks-container p{
+
+.social-networks .social-networks-container p {
     color: black;
     font-size: 40px;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
 }
-.social-networks .social-networks-container .our-workers .workers .icon-workers{
+
+.social-networks .social-networks-container .our-workers .workers .icon-workers {
     width: 50%;
     margin: 20px 25%;
     text-align: center;
 }
-.social-networks .social-networks-container .our-workers .workers .icon-workers a{
+
+.social-networks .social-networks-container .our-workers .workers .icon-workers a {
     color: #5db243;
     font-size: 20px;
     text-decoration: none;
 }
-.social-networks .social-networks-container .our-workers .workers .workers-info{
+
+.social-networks .social-networks-container .our-workers .workers .workers-info {
     font-size: 15px;
     width: 100%;
     margin: 0 auto;
 }
-.social-networks .social-networks-container .our-workers .workers .name-workers{
+
+.social-networks .social-networks-container .our-workers .workers .name-workers {
     color: palevioletred;
     font-family: fantasy;
     font-size: 30px;
+}
+
+.social-networks .transparent-container {
+    width: 100%;
+    height: 300px;
+
+}
+
+.social-networks .transparent-container p {
+    color: black;
+    font-size: 40px;
+    margin: 40px 170px;
+    text-align: left;
+}
+
+.social-networks .transparent-container input {
+    background-color: #ffab3e;
+    height: 40px;
+    width: 115px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 190px;
 }
