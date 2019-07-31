@@ -3,176 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.row .row-1 {
-    display: flex;
-}
-
-.row .row-1 .our-services {
-    background: url("../ukr-img/s3.jpg") center no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 350px;
-}
-
-.row .row-1 .our-services p, h3 {
-    color: #ffab3e;
-    margin: 30px 60px;
-    font-size: 30px;
-}
-
-.row .row-1 .our-services h3 {
-    color: white;
-    font-size: 40px;
-}
-
-.row .row-1 .general-information-1 {
-    background: url("../ukr-img/s1.jpg") center no-repeat;
-    background-size: cover;
-    width: 25%;
-    height: 350px;
-}
-
-.row .row-1 .general-information-1 .title-about {
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
-}
-
-.row .row-1 .general-information-1 .title-about + span {
-    color: black;
-    display: block;
-    font-size: 15px;
-    margin: 30px;
-}
-
-.row .row-1 .general-information-2 {
-    background-color: palevioletred;
-    height: 350px;
-    width: 25%;
-}
-
-.row .row-1 .general-information-2 .title-about {
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
-}
-
-
-
-
-
-
-
-.row .row-2 {
+.row{
     width: 100%;
 }
-.row .row-2 .our-services-row-2 {
-    position: relative;
-    width: 50%;
+.row-container .row {
+    display: flex;
+    flex-wrap: wrap;
 }
-.row .row-2 .our-services-row-2 .our-services-column {
-    background: url("../ukr-img/s4.jpg") center no-repeat;
-    height: 600px;
-    width: 400px;
-    position: absolute;
-}
-
-.row .row-2 .our-services-row-2 .our-services-column .title-about {
+.row-container .row .title-about{
     color: white;
-    font-size: 30px;
+    letter-spacing: 2px;
     font-family: sans-serif;
-    margin: 30px;
+    font-size: 35px;
+    margin: 40px 10px;
 }
-
-.row .row-2 .our-services-row-2 .our-services-column-1 {
-    background: url("../ukr-img/s2.jpg") center no-repeat;
-    height: 355px;
-    width: 355px;
-    position: absolute;
-    left: 400px;
-}
-
-.row .row-2 .our-services-row-2 .our-services-column-1 .title-about + span {
+.row-container .row span {
+    font-size: 10px;
     color: black;
-    display: block;
-    font-size: 15px;
-    margin: 30px;
 }
-
-.row .row-2 .our-services-row-2 .our-services-column-1 .title-about {
-    color: white;
+.row-container .row .column-1 {
+    height: 355px;
+    width: 50%;
+    background: url("../ukr-img/s3.jpg") center no-repeat;
+    background-size: cover;
+}
+.row-container .row .column-1 p,h3{
+    color: #ffab3e;
     font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
+    margin: 60px 0 20px 70px;
 }
-
-.row .row-2 .our-services-row-2 .our-services-column-2 {
+.row-container .row .column-1 h3{
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.row-container .row .column-2{
+    background: url("../ukr-img/s1.jpg") center no-repeat;
+    width: 25%;
+    height: 355px;
+    background-size: cover;
+}
+.row-container .row  .column-3 {
     background-color: palevioletred;
-    height: 246px;
-    width: 355px;
-    position: absolute;
-    left: 400px;
-    top: 354px;
-}
-
-.row .row-2 .our-services-row-2 .our-services-column-2 .title-about {
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
-}
-.row .row-2 .our-services-row-3 {
-    position: relative;
-    width: 50%;
-}
-.row .row-2 .our-services-row-3 .our-services-column-3 {
-    background: url("../ukr-img/s5.jpg");
-    background-size: cover;
-    height: 600px;
-    width: 477px;
-    position: absolute;
-    left: 1428px;
-}
-.row .row-2 .our-services-row-3 .our-services-column-3 .title-about{
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
-}
-.row .row-2 .our-services-row-3 .our-services-column-4 {
-    background-color: #56a246;
+    width: 25%;
     height: 355px;
-    width: 673px;
-    position: absolute;
-    left:  755px;
+
 }
-.row .row-2 .our-services-row-3 .our-services-column-4 .title-about{
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
-}
-.row .row-2 .our-services-row-3 .our-services-column-5 {
-    background: url(../ukr-img/s6.jpg) center no-repeat;
+.row-container .row .column-4{
+    background: url("../ukr-img/s4.jpg") center no-repeat;
     background-size: cover;
-    height: 325px;
-    width: 675px;
-    position: absolute;
-    top: 275px;
-    left: 755px;
+    width: 25%;
+    height: 600px;
 }
-.row .row-2 .our-services-row-3 .our-services-column-5 .title-about {
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-    margin: 30px;
+.row-container .row .column-5{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 600px;
+
 }
-.row .row-2 .our-services-row-3 .our-services-column-5 .title-about+span{
-    color: black;
-    display: block;
-    font-size: 15px;
-    margin: 30px;
+.row-container .row .column-5 .column-5-1{
+    background: url("../ukr-img/s2.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.row-container .row .column-5 .column-5-2 {
+    background-color: #b23b6e;
+    height: 300px;
+    width: 100%;
+}
+.row-container .row .column-6{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 600px;
+}
+.row-container .row .column-6 .column-6-1 {
+    background-color: #5db243;
+    height: 300px;
+    width: 100%;
+}
+.row-container .row .column-6 .column-6-2{
+    background: url("../ukr-img/s6.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.row-container .row .column-7{
+    background: url("../ukr-img/s5.jpg") center no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 600px;
 }
