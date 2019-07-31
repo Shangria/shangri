@@ -2,22 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: black 1px solid;
-}
-
-.social-networks {
-    height: 100vh;
-    width: 100%;
 }
 
 .social-networks .social-networks-container .our-workers {
-    height: 1000px;
-    width: 100%;
-
+    display: flex;
+    justify-content: center;
+}
+.social-networks .social-networks-container .our-workers .workers{
+    max-width: 20%;
+    text-align: center;
+}
+.social-networks .social-networks-container .our-workers .workers img{
+    box-shadow: 0 0 24px 4px rgba(181, 181, 181, 0.7);
 
 }
-
-.social-networks .social-networks-container h2 {
+.social-networks .social-networks-container h2,p {
     color: #ffab3e;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0 50px;
+}
+.social-networks .social-networks-container p{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.social-networks .social-networks-container .our-workers .workers .icon-workers{
+    width: 50%;
+    margin: 20px 25%;
+    text-align: center;
+}
+.social-networks .social-networks-container .our-workers .workers .icon-workers a{
+    color: #5db243;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social-networks .social-networks-container .our-workers .workers .workers-info{
+    font-size: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+.social-networks .social-networks-container .our-workers .workers .name-workers{
+    color: palevioletred;
+    font-family: fantasy;
     font-size: 30px;
 }
