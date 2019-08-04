@@ -3,94 +3,111 @@
     padding: 0;
     box-sizing: border-box;
 }
-.row{
+
+.row {
     width: 100%;
 }
+
 .row-container .row {
     display: flex;
     flex-wrap: wrap;
 }
-.row-container .row .title-about{
+
+.row-container .row .title-about {
     color: white;
     letter-spacing: 2px;
     font-family: sans-serif;
     font-size: 35px;
     margin: 40px 10px;
 }
+
 .row-container .row span {
     font-size: 20px;
     color: black;
 }
+
 .row-container .row .column-1 {
     height: 355px;
     width: 50%;
     background: url("../ukr-img/s3.jpg") center no-repeat;
     background-size: cover;
 }
-.row-container .row .column-1 p,h3{
+
+.row-container .row .column-1 p, h3 {
     color: #ffab3e;
     font-size: 30px;
     margin: 60px 0 20px 70px;
 }
-.row-container .row .column-1 h3{
+
+.row-container .row .column-1 h3 {
     color: white;
     letter-spacing: 2px;
     font-family: sans-serif;
 }
-.row-container .row .column-2{
+
+.row-container .row .column-2 {
     background: url("../ukr-img/s1.jpg") center no-repeat;
     width: 25%;
     height: 355px;
     background-size: cover;
 }
-.row-container .row  .column-3 {
+
+.row-container .row .column-3 {
     background-color: palevioletred;
     width: 25%;
     height: 355px;
 
 }
-.row-container .row .column-4{
+
+.row-container .row .column-4 {
     background: url("../ukr-img/s4.jpg") center no-repeat;
     background-size: cover;
     width: 25%;
     height: 600px;
 }
-.row-container .row .column-5{
+
+.row-container .row .column-5 {
     display: flex;
     flex-direction: column;
     width: 25%;
     height: 600px;
 
 }
-.row-container .row .column-5 .column-5-1{
+
+.row-container .row .column-5 .column-5-1 {
     background: url("../ukr-img/s2.jpg") center no-repeat;
     background-size: cover;
     width: 100%;
     height: 300px;
 }
+
 .row-container .row .column-5 .column-5-2 {
     background-color: #b23b6e;
     height: 300px;
     width: 100%;
 }
-.row-container .row .column-6{
+
+.row-container .row .column-6 {
     display: flex;
     flex-direction: column;
     width: 25%;
     height: 600px;
 }
+
 .row-container .row .column-6 .column-6-1 {
     background-color: #5db243;
     height: 300px;
     width: 100%;
 }
-.row-container .row .column-6 .column-6-2{
+
+.row-container .row .column-6 .column-6-2 {
     background: url("../ukr-img/s6.jpg") center no-repeat;
     background-size: cover;
     width: 100%;
     height: 300px;
 }
-.row-container .row .column-7{
+
+.row-container .row .column-7 {
     background: url("../ukr-img/s5.jpg") center no-repeat;
     background-size: cover;
     width: 25%;

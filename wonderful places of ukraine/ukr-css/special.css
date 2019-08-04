@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: black 1px solid;
 }
 
 .what-special {
     width: 100%;
 }
+
 .what-special h2, p {
     color: #ffab3e;
     font-size: 30px;
@@ -22,46 +22,46 @@
     letter-spacing: 1px;
     font-weight: bold;
 }
-.what-special .gallery-of-fruits{
-    width: 50%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
 
+.what-special .gallery-of-fruits {
+    width: 57%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
-.what-special .gallery-of-fruits .column-fruits-1{
+.what-special .gallery-of-fruits .column-fruits-1,.column-fruits-2,.column-fruits-3,.column-fruits-4,.column-fruits-5,.column-fruits-6 {
+    width: 350px;
+    height: 233px;
+    margin: 5px;
+    box-shadow: inset -1px 5px 28px 1px rgba(240, 218, 240, 1);
+    position: relative;
+}
+.what-special .gallery-of-fruits .column-fruits-1 {
     background: url("../ukr-img/g1.jpg") center no-repeat;
-    width: 30px;
-    height: auto;
     background-size: cover;
 }
-.what-special .gallery-of-fruits .column-fruits-2{
+
+.what-special .gallery-of-fruits .column-fruits-2 {
     background: url("../ukr-img/g2.jpg") center no-repeat;
-    width: 30%;
-    height: auto;
     background-size: cover;
 }
-.what-special .gallery-of-fruits .column-fruits-3{
+
+.what-special .gallery-of-fruits .column-fruits-3 {
     background: url("../ukr-img/g3.jpg") center no-repeat;
-    width: 30%;
-    height: auto;
     background-size: cover;
 }
-.what-special .gallery-of-fruits .column-fruits-4{
+
+.what-special .gallery-of-fruits .column-fruits-4 {
     background: url("../ukr-img/g4.jpg") center no-repeat;
-    width: 30%;
-    height: auto;
     background-size: cover;
 }
-.what-special .gallery-of-fruits .column-fruits-5{
+
+.what-special .gallery-of-fruits .column-fruits-5 {
     background: url("../ukr-img/g5.jpg") center no-repeat;
-    width: 30%;
-    height: auto;
     background-size: cover;
 }
-.what-special .gallery-of-fruits .column-fruits-6{
+
+.what-special .gallery-of-fruits .column-fruits-6 {
     background: url("../ukr-img/g6.jpg") center no-repeat;
-    width: 30%;
-    height: auto;
     background-size: cover;
 }
