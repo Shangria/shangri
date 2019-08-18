@@ -2,36 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: #0b7285 1px solid;
 }
+
 .our-blog {
     width: 100%;
     background-color: rgba(166, 152, 255, 0.1);
     margin-top: 30px;
 }
+
 .our-blog .our-blog-name {
     width: 25%;
     margin: 20px auto;
     text-align: center;
     color: #ffab3e;
 }
-.our-blog .our-blog-name p{
+
+.our-blog .our-blog-name p {
     color: black;
     font-size: 40px;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
 }
-.our-blog .blog-wrapper{
+
+.our-blog .blog-wrapper {
     display: flex;
     width: 100%;
 }
-.our-blog .blog-wrapper .lemon-blog{
+
+.our-blog .blog-wrapper .lemon-blog {
     width: 50%;
     background: url("../ukr-img/blog1.jpg") no-repeat center center;
     background-size: cover;
 }
-.our-blog .blog-wrapper .lemon-blog .lemon-text{
+
+.our-blog .blog-wrapper .lemon-blog .lemon-text,.strawberry-text {
     width: 80%;
     height: 70%;
     margin: 10% auto;
@@ -40,13 +45,52 @@
     text-align: center;
     line-height: 140%;
 }
-.our-blog .blog-wrapper .health-blog-information{
+
+.our-blog .blog-wrapper .health-blog-information {
     width: 50%;
 }
-.our-blog .blog-wrapper .health-blog-information h3{
+.our-blog .blog-wrapper .health-blog-information .health-text{
+    width: 90%;
+    margin: 0 auto;
+}
+.our-blog .blog-wrapper .health-blog-information h3 {
     font-size: 40px;
     line-height: 45px;
     font-family: sans-serif;
     margin-bottom: 20px;
     color: black;
+    letter-spacing: 2px;
+}
+
+.our-blog .blog-wrapper .health-blog-information p {
+    color: #636363;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+.our-blog .blog-wrapper .health-blog-information li{
+    display: inline-block;
+    font-size: 20px;
+}
+.our-blog .blog-wrapper .health-blog-information li:nth-child(odd){
+    color: #d50e95;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.our-blog .blog-wrapper .health-blog-information input{
+    background-color: #ffab3e;
+    height: 40px;
+    width: 115px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.our-blog .blog-wrapper .strawberry-blog{
+    width: 50%;
+    background: url("../ukr-img/blog2.jpg") center center no-repeat;
+    background-size: cover;
 }
