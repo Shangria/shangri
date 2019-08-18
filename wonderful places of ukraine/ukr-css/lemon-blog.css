@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: #0b7285 1px solid;
+}
+.our-blog {
+    width: 100%;
+    background-color: rgba(166, 152, 255, 0.1);
+    margin-top: 30px;
+}
+.our-blog .our-blog-name {
+    width: 25%;
+    margin: 20px auto;
+    text-align: center;
+    color: #ffab3e;
+}
+.our-blog .our-blog-name p{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.our-blog .blog-wrapper{
+    display: flex;
+    width: 100%;
+}
+.our-blog .blog-wrapper .lemon-blog{
+    width: 50%;
+    background: url("../ukr-img/blog1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.our-blog .blog-wrapper .lemon-blog .lemon-text{
+    width: 80%;
+    height: 70%;
+    margin: 10% auto;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 90px;
+    text-align: center;
+    line-height: 140%;
+}
+.our-blog .blog-wrapper .health-blog-information{
+    width: 50%;
+}
+.our-blog .blog-wrapper .health-blog-information h3{
+    font-size: 40px;
+    line-height: 45px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: black;
+}
