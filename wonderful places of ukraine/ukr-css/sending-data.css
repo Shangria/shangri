@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sending-data{
+    width: 50%;
+    height: 50%;
+    background-color: #ffab3e;
+}
+.sending-data .data-container {
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+}
+.sending-data .data-container form input{
+    display: block;
+    width: 70%;
+    height: 60px;
+}
+.sending-data .data-container form button{
+    width: 50px;
+    color: #ff6d17;
+}
