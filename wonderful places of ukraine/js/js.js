@@ -117,14 +117,6 @@ let watermelonAffairs = namesOfPeoplesTeaser + " " + actionNames + "!!!";
 let watermelonAffairsInAction = "У " + watermelonAffairs + "будет хороший день" + " "+actionNames+".Всего хороего!!!";
     console.log(watermelonAffairsInAction);*/
 
-function randomChar() {
-    let randomLetters = "gkvfdsgyuknbcaazsdfgn";
-    for (let myPassword = 0; myPassword.length < 10; myPassword++) {
-        myPassword = randomLetters[Math.floor(Math.random() * randomLetters.length)];
-        console.log('Мой пароль: ' + myPassword);
-    }
-}
-
 
 function generatePassword() {
     let password = '';
@@ -136,5 +128,7 @@ function generatePassword() {
     return password;
 }
 
-let password = generatePassword();
+let password = generatePassword(11);
+let password2 = generatePassword(3);
 console.log('результат: ' + password);
+console.log('результат: ' + password2);
