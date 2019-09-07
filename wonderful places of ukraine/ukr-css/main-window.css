@@ -31,7 +31,7 @@
 }
 
 .wrapper .header .header-menu .menu-button {
-    margin-left: 700px;
+    margin-left: 40%;
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -92,3 +92,72 @@
     font-weight: bold;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 678px) {
+    .wrapper {
+        background: url("../ukr-img/b3.jpg") center center no-repeat;
+        background-size: cover;
+    }
+
+    .wrapper .header .header-menu span {
+        margin-left: 10px;
+    }
+
+    .wrapper .header .header-menu .menu-button {
+        margin-left: 20%;
+        margin-top: -33px;
+    }
+
+
+    .wrapper .header .header-menu .icon {
+        position: absolute;
+        left: 10px;
+        margin-top: 20px;
+
+    }
+    }
+
+    .wrapper .header .header-menu .icon a {
+        color: white;
+        margin-left: 15px;
+    }
+
+    .wrapper .header .wrapper-info {
+        position: absolute;
+        top: 200px;
+        left: 335px;
+    }
+
+    .wrapper .header .wrapper-info .title-top {
+        color: #ffab3e;
+        font-size: 35px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+
+    .wrapper .header .wrapper-info .title-top-2 {
+        color: #db7093;
+        text-shadow: 1px 1px 2px #a698ff, 0 0 1em palevioletred;
+        font-size: 39px;
+        letter-spacing: 5px;
+        font-family: sans-serif;
+        margin-bottom: 45px;
+    }
+
+    .wrapper .header .wrapper-info .title-info {
+        color: #636363;
+        line-height: 20px;
+    }
+
+    .wrapper .header .wrapper-info input {
+        background-color: #ffab3e;
+        height: 40px;
+        width: 115px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+
+
+    }
