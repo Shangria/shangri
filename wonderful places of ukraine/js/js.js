@@ -125,8 +125,16 @@ function randomChar() {
     }
 }
 
-    for (var sheepCounted = 0; sheepCounted < 10; sheepCounted++) {
-        console.log("Посчитано овец: " + sheepCounted + "!");
+
+function generatePassword() {
+    let password = '';
+    let randomLetters = "gkvfdsgyuknbcaazsdfgn";
+    for (let i = 0; i < 10; i++) {
+        password = password + randomLetters[Math.floor(Math.random() * randomLetters.length)];
+        console.log('промежуточный результат: ' + password);
     }
+    return password;
+}
 
-
+let password = generatePassword();
+console.log('результат: ' + password);
