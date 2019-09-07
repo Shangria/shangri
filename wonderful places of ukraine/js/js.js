@@ -129,3 +129,4 @@ function randomChar() {
         console.log("Посчитано овец: " + sheepCounted + "!");
     }
 
+
