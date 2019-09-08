@@ -128,7 +128,33 @@ function generatePassword() {
     return password;
 }
 
-let password = generatePassword(11);
-let password2 = generatePassword(3);
+let password = generatePassword();
 console.log('результат: ' + password);
-console.log('результат: ' + password2);
+
+
+
+function generatePassword2() {
+    let passwordOne = '';
+    let randomLetters = "gkvfdsgyuknbcaazsdfgn";
+    for (let i = 0; i < 3; i++) {
+        passwordOne = passwordOne+ randomLetters[Math.floor(Math.random() * randomLetters.length)];
+        console.log('промежуточный результат2: ' + passwordOne);
+    }
+    return passwordOne;
+}
+
+let passwordOne = generatePassword2();
+console.log('результат2: ' + passwordOne);
+
+function generatePassword3() {
+    let passwordTwo = '';
+    let randomLetters = "gkvfdsgyuknbcaazsdfgn";
+    for (let i = 0; i < 11; i++) {
+        passwordTwo = passwordTwo+ randomLetters[Math.floor(Math.random() * randomLetters.length)];
+        console.log('промежуточный результат3: ' + passwordTwo);
+    }
+    return passwordTwo;
+}
+
+let passwordTwo = generatePassword3();
+console.log('результат3: ' + passwordTwo);
