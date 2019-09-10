@@ -45,19 +45,33 @@ let password3 = generatePassword(6);
 printInBody('результат3: ' + password3)*/
 
 var animals = ["Кот", "Рыба", "Лемур", "Комодский варан"];
-for (let i=0; i<animals.length;i++){
-    console.log(animals[i]+ '- прекрасное животное');
+for (let i = 0; i < animals.length; i++) {
+    console.log(animals[i] + '- прекрасное животное');
 }
 
 
 let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-let randomString="";
+let randomString = "";
 
 
- while (randomString.length<10) {
-     randomString = Math.floor(Math.random() * alphabet.length);
-     console.log('случайный символ-' + alphabet[randomString]);
-     randomString++;
+while (randomString.length < 10) {
+    // получаем случайный индекс, который не превышает длину строки "alphabet"
+    let randomIndex = Math.floor(Math.random() * alphabet.length);
+    console.log('random index: ' + randomIndex);
 
- }
+    // почитать что такое charAt() !!!!
+    // использовать только charAt() !!!
+    // берём случайный символ из строки "alphabet" по интесу, используя встроенную в стрОки функцию charAt(index)
+    let randomCharacter = alphabet.charAt(randomIndex);
+    console.log('random character: ' + randomCharacter);
+
+    // добавляем к нашей результирующей строке полученный случайный символ и результат записываем в нашу результирующую строку
+    randomString = randomString + randomCharacter;
+    console.log('random string: ' + randomString);
+
+    console.log('--- random string length: ' + randomString.length);
+}
+
+// выводим результат
+console.warn('result: ' + randomString);
 
