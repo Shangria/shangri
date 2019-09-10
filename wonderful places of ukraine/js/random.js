@@ -9,7 +9,7 @@
 //     }
 // }
 
-function printInBody(text) {
+/*function printInBody(text) {
     let div = document.createElement('div');
     div.innerText = text;
     document.body.append(div);
@@ -42,4 +42,22 @@ let password2 = generatePassword(4);
 printInBody('результат2: ' + password2);
 
 let password3 = generatePassword(6);
-printInBody('результат3: ' + password3);
+printInBody('результат3: ' + password3)*/
+
+var animals = ["Кот", "Рыба", "Лемур", "Комодский варан"];
+for (let i=0; i<animals.length;i++){
+    console.log(animals[i]+ '- прекрасное животное');
+}
+
+
+let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+let randomString="";
+
+
+ while (randomString.length<10) {
+     randomString = Math.floor(Math.random() * alphabet.length);
+     console.log('случайный символ-' + alphabet[randomString]);
+     randomString++;
+
+ }
+
