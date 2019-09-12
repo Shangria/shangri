@@ -117,6 +117,7 @@ let watermelonAffairs = namesOfPeoplesTeaser + " " + actionNames + "!!!";
 let watermelonAffairsInAction = "У " + watermelonAffairs + "будет хороший день" + " "+actionNames+".Всего хороего!!!";
     console.log(watermelonAffairsInAction);*/
 
+/*
 
 function generatePassword() {
     let password = '';
@@ -158,3 +159,5 @@ function generatePassword3() {
 
 let passwordTwo = generatePassword3();
 console.log('результат3: ' + passwordTwo);
+*/
+

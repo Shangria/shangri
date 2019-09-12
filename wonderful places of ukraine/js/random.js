@@ -43,6 +43,7 @@ printInBody('результат2: ' + password2);
 
 let password3 = generatePassword(6);
 printInBody('результат3: ' + password3)*/
+/*
 
 var animals = ["Кот", "Рыба", "Лемур", "Комодский варан"];
 for (let i = 0; i < animals.length; i++) {
@@ -74,4 +75,26 @@ while (randomString.length < 10) {
 
 // выводим результат
 console.warn('result: ' + randomString);
+
+
+
+
+*/
+
+
+let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+let randomLetter = '';
+while (randomLetter.length < 10) {
+    randomLetter = randomLetter + Math.floor(Math.random() * alphabet.length);
+    let randomChoice=randomLetter;
+    console.log(randomChoice);
+}
+
+
+
+
+
+
+
+
 
