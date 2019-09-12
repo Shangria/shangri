@@ -25,7 +25,7 @@ function generateRandomCharacter() {
 
 
 function generatePassword(passwordMaxLength) {
-    printInBody('*** generate password with max length: ' + passwordMaxLength);
+    '*** generate password with max length: ' + passwordMaxLength);
     let password = '';
     for (let i = 0; i < passwordMaxLength; i++) {
         let randomLetter = generateRandomCharacter();
@@ -80,15 +80,6 @@ console.warn('result: ' + randomString);
 
 
 */
-
-
-let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-let randomLetter = '';
-while (randomLetter.length < 10) {
-    randomLetter = randomLetter + Math.floor(Math.random() * alphabet.length);
-    let randomChoice=randomLetter;
-    console.log(randomChoice);
-}
 
 
 
