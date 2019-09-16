@@ -42,46 +42,98 @@ let words = [
     "Улыбка",
     "Каторга"
 ];
+words.push('Ноутбук', 'Сссылка');
 //создаем переменную. где методом случайного выбора будт определться слово
-let randomWords = words[Math.floor(Math.random() * words.length)];
-console.log(randomWords);
+let randomWord = words[Math.floor(Math.random() * words.length)];
+console.log('randomWord ' + randomWord);
 
 //создаем пустой массив, куда будут добавлять количесво букв с загадоного слова
-let answerArr = [];
+let answerArray = [];
 //создаем цикл, который будет добвлять количество подчеркиваний в зависимотви от того. какое случайное слово нам выпадет
-for (let i = 0; randomWords.length > i; i++) {
-    answerArr[i] = '_';
+for (let i = 0; randomWord.length > i; i++) {
+    answerArray[i] = '_';
 }
 //содаем переменную, которая будет равняться длинне выбраного слова
-let leftToGuessLetters = randomWords.length;
+let leftToGuessLetters = randomWord.length;
+console.log('leftToGuessLetters ' + leftToGuessLetters);
 
-while (leftToGuessLetters > 0){
+let maxFails = 2;
+
+while (leftToGuessLetters > 0) {
 //показать играку текущее состояние игры
-    alert(answerArr.join(""));
+    alert(answerArray.join(""));
     //запрашиваем у игрока ответ, и определаем его в переменную
     let guess = prompt("Угадайте букву или нажмите Отмена для выхода из игры.");
     //далее возможны варианты ответов:если игрок нажмет отмена цыкл примет значение нул  и выйдет из цыкла
-    if (guess === null) {
-        //выход из цикла
-        break;
+
+
+    {   // проверяем на ранее введённую букву
+        while (answerArray.indexOf(guess) != -1) {
+            guess = prompt("Буква " + guess + ", уже была угаданаб введите другую");
+        }
     }
-    //поверяем если игрок введет более 1буквы или ничего не введет, алерт выдаст окно
-    else if (guess.length !== 1) {
-        alert("Пожалуйста, введите только одну букву.");
-    }
-    //игрок ввел корректный ответ, то воспроиводим цыкл где переменная j будет менять значение от 0 длинны слова
-    else {
-        for (let j = 0; randomWords.length > j; j++) {
-            //проверяем каждую букву этой переменной, сравниваяя ее с выбором игрока
-            if (randomWords[j] === guess) {
-                //если выбор игрока совпал с правилым ответом, добавляем букуву в правильный ответ
-                answerArr[j] = guess;
-               //уменшаем слово с каждым правильным выбором игрока
-                leftToGuessLetters--;
+
+    {   // проверяем, чтоб не было пустой строки
+        let attempt = 0;
+        while (guess == null) {
+            guess = prompt("Нет, введи! " + attempt);
+            attempt++;
+            if (attempt == 3) {
+                break;
             }
         }
     }
+
+    if (guess == null) {
+        break;
+    }
+
+
+    if (guess.length == 0) {
+        // if empty string
+        alert("Ничего не введено");
+    } else if (guess.length > 1) {
+        // if string contains more that one character
+        alert("Пожалуйста, введите только одну букву.");
+    } else {
+
+        let success = false;
+
+        for (let j = 0; randomWord.length > j; j++) {
+            let letter = randomWord[j];
+            let comparisonResult = letter.toLowerCase() == guess.toLowerCase();
+
+            console.log('Ввели букву: %s, сравниваем с: %s, результат: %s', guess, letter, comparisonResult);
+
+            //проверяем каждую букву этой переменной, сравниваяя ее с выбором игрока
+            if (comparisonResult) {
+                //если выбор игрока совпал с правилым ответом, добавляем букуву в правильный ответ
+                answerArray[j] = guess;
+                //уменшаем слово с каждым правильным выбором игрока
+                leftToGuessLetters--;
+
+                success = true;
+            }
+        }
+
+        if (success) {
+            console.log("Буква угадана");
+        } else {
+            maxFails--;
+            if (maxFails == -1) {
+                alert("Дядя Петя, ты дурак?");
+                break;
+            } else {
+                console.log("Буква не угадана, осталось промахов %s", maxFails);
+            }
+        }
+    }
+
 }
 
+if (leftToGuessLetters == 0) {
+    alert("Отлично! Было загадано слово " + randomWord);
+} else {
+    alert("Слабак, осталось отгадать " + leftToGuessLetters + " букв");
+}
 
-alert("Отлично! Было загадано слово " +  randomWords);
