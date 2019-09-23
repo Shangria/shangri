@@ -136,9 +136,11 @@ if (leftToGuessLetters == 0) {
     alert("Отлично! Было загадано слово " + randomWord);
 } else {
     alert("Слабак, осталось отгадать " + leftToGuessLetters + " букв");
-}
+}-72
+
 */
 
+/*
 let randomName=["Ты", "Я", "Они", "Мы"];
 let  randomAction = ["Ползет", "Плывет", "Идет", "Стоит"];
 let randomPlace=["в болото", "в ад", "в пропасть", "по радужке"];
@@ -148,3 +150,21 @@ let pickRandomWord = function (words) {
 };
 let randomString=pickRandomWord(randomName)+" "+pickRandomWord(randomAction)+" "+ pickRandomWord(randomPlace);
 console.log(randomString);
+*/
+
+/*var fifthLetter = function (name) {
+if (name.length < 5) {
+    }
+    return "Пятая буква вашего имени: " + name[4] + ".";
+};
+console.log(fi*//*fthLetter("jhj"));*/
+
+let add = function (oneNumber, twoNumber) {
+    return oneNumber + twoNumber;
+};
+console.log(add(945, 777));
+let multiply = function (oneNumber, twoNumber) {
+    return oneNumber * twoNumber;
+};
+console.log(multiply(8, 8));
+    console.log(multiply()+ add());
