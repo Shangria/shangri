@@ -36,6 +36,7 @@ if (likesCats) {
     console.log("Что ж, не проблема. Все равно ты молодец!");
 }*/
 //создаем массив из слов
+/*
 let words = [
     "Оладушек",
     "Дно",
@@ -136,4 +137,14 @@ if (leftToGuessLetters == 0) {
 } else {
     alert("Слабак, осталось отгадать " + leftToGuessLetters + " букв");
 }
+*/
 
+let randomName=["Ты", "Я", "Они", "Мы"];
+let  randomAction = ["Ползет", "Плывет", "Идет", "Стоит"];
+let randomPlace=["в болото", "в ад", "в пропасть", "по радужке"];
+
+let pickRandomWord = function (words) {
+    return words[Math.floor(Math.random() * words.length)];
+};
+let randomString=pickRandomWord(randomName)+" "+pickRandomWord(randomAction)+" "+ pickRandomWord(randomPlace);
+console.log(randomString);
