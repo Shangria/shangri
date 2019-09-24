@@ -171,4 +171,5 @@ let multiply = function (oneNumber, twoNumber) {
 };
 let summ2=multiply(36325,9824);
     console.log(summ2);
- console.log(summ2*summ);
+    summaAll= summ*summ2;
+ console.log(summaAll);
