@@ -1,0 +1,5 @@
+div {
+    height: 40px;
+    border: 1px solid black;
+    transition: 300ms ease-out;
+}
