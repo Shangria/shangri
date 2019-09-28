@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>js</title>
-    <script src="new.js"></script>
+    <title>Изучаем DOM</title>
 </head>
-<body></body>
-
-
+<body>
+<h1 id="main-heading">Привет, мир!</h1>
+<script>
+    var headingElement = document.getElementById("main-heading");
+    console.log(headingElement.innerHTML);
+    var newHeadingText = prompt("Введите новый заголовок:");
+    headingElement.innerHTML = newHeadingText;
+</script>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+</body>
 </html>

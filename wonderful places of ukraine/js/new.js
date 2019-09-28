@@ -162,14 +162,14 @@ console.log(fi*//*fthLetter("jhj"));*/
 let add = function (oneNumber, twoNumber) {
     return oneNumber + twoNumber;
 };
-let summ=add(777, 0);
+let summ = add(777, 0);
 console.log(summ);
 
 
 let multiply = function (oneNumber, twoNumber) {
     return oneNumber * twoNumber;
 };
-let summ2=multiply(36325,9824);
-    console.log(summ2);
-    summaAll= summ*summ2;
- console.log(summaAll);
+let summ2 = multiply(36325, 9824);
+console.log(summ2);
+summaAll = summ * summ2;
+console.log(summaAll);
