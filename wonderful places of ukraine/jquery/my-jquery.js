@@ -1,4 +1,4 @@
-function getRandomNumberInRange(min, max) {
+function getRandomNumberInRange(min, max) { b
     function generate() {
         return Math.floor(Math.random() * max);
     }

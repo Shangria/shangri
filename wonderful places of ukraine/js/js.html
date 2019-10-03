@@ -5,20 +5,28 @@
     <title>Изучаем DOM</title>
     <script src="../jquery/jquery3.4.1.js"></script>
 </head>
-<body>
-<h1 id="heading">Привет, мир!</h1>
-<script>
-    var leftOffset = 0;
-    var moveHeading = function () {
-        $("#heading").offset({top: leftOffset});
-        leftOffset++;
-        if (leftOffset > 200) {
-            leftOffset = 0;
-        }
-    };
-    setInterval(moveHeading, 30);
+<style>
+    table {
+        border-collapse: collapse;
+    }
 
+    tr td {
+        border: #d50e95 1px solid;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+<div id="add-table"></div>
+
+<script>
+    $('#add-table').append('<table><tr></tr></table>');
+    let td = " ";
+    if (td <= 10) {
+        for (td = 0; td <= 10; td++) {
+            $('tr').append('<td>z1</td>');
+        }
+    }
 </script>
 
 </body>
-</html
+</html>
