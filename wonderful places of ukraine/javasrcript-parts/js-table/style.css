@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+tr td {
+    border: #d50e95 1px solid;
+    border-collapse: collapse;
+}
+
+div {
+    min-height: 100px;
+    min-width: 100px;
+    border: 1px solid;
+}
