@@ -3,6 +3,20 @@ table {
     margin: 10px;
 }
 
+tr:hover td,
+tr:nth-child(odd):hover td {
+    background-color: red;
+}
+
+td {
+    padding: 5px;
+
+}
+
+tr:nth-child(odd) td {
+    background-color: yellow;
+}
+
 tr td {
     border: #d50e95 1px solid;
     border-collapse: collapse;

@@ -1,28 +1,32 @@
-// добавляет таблицу с количесивом рядков раное rows и количесвом колонок раное columns в div#mainContainer
-function renderTableTable(rows, columns) {
-debugger;
-    let table = createTable(rows, columns);
+function renderTableTable(row, columns) {
+    let table = createTable(row, columns);
     $('#mainContainer').append(table);
 }
 
-// создаёт элемент таблицы с количесивом рядков раное rows и количесвом колонок раное columns
-function createTable(rows, columns) {
-    let table = $('<table>');
-
-    for (let trCount = 0; trCount < rows; trCount++) {
-        let tr = $('<tr>');
-
-        for (let tdCount = 0; tdCount < columns; tdCount++) {
-            let td = $('<td>');
-            let text = (trCount + 1) + '/' + (tdCount + 1);
+function createTable(row, columns) {
+    let table = $("<table>");
+    for (let i = 0; i < row; i++) {
+        let tr = $("<tr></tr>");
+        $(table).append(tr);
+        for (let m = 0; m < columns; m++) {
+            let text = generateRandomText();
+            let td = $("<td></td>");
             td.text(text);
             $(tr).append(td);
+
         }
-
-        $(table).append(tr);
     }
-
     return table;
 }
 
 
+function generateRandomText() {
+    let string = "ghhjgjgjgjfffffjyjyyyyyyyyhfddrgthygj";
+    let randomString = '';
+    while (randomString.length<2){
+        let random = Math.floor(Math.random() * string.length);
+        let randomChart = string.charAt(random);
+        randomString+=randomChart;
+    }
+    return randomString;
+}
