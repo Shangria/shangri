@@ -9,7 +9,15 @@ function createTable(row, columns) {
         let tr = $("<tr></tr>");
         $(table).append(tr);
         for (let m = 0; m < columns; m++) {
-            let text = generateRandomText();
+
+            let length;
+            if (i % 2 == 0) {
+                length = 2;
+            } else {
+                length = 5;
+            }
+
+            let text = generateRandomText(length);
             let td = $("<td></td>");
             td.text(text);
             $(tr).append(td);
@@ -20,13 +28,13 @@ function createTable(row, columns) {
 }
 
 
-function generateRandomText() {
+function generateRandomText(length) {
     let string = "ghhjgjgjgjfffffjyjyyyyyyyyhfddrgthygj";
     let randomString = '';
-    while (randomString.length<2){
+    while (randomString.length < length) {
         let random = Math.floor(Math.random() * string.length);
         let randomChart = string.charAt(random);
-        randomString+=randomChart;
+        randomString += randomChart;
     }
     return randomString;
 }
