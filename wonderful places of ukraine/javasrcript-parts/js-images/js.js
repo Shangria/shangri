@@ -27,13 +27,13 @@ let cars = [
 ];
 
 $(function () {
-    $('input[type="radio"]').each(function (index, element) {
+    $('button').each(function (index, element) {
 
-        $(element).on('change',function () {
-            let value = $(element).val();
-            if (value == 'animals') {
+        $(element).on('click',function () {
+            let jopa = $(element).attr('jopa');
+            if (jopa == 'animals') {
                 renderImages(animals);
-            } else if (value == 'cars') {
+            } else if (jopa == 'cars') {
                 renderImages(cars);
             }
         });

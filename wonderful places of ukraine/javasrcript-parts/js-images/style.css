@@ -4,3 +4,9 @@ img {
     max-height: 100px;
     margin: 10px;
 }
+
+button {
+    min-width: 100px;
+    margin: 0 3px;
+    padding: 4px;
+}
