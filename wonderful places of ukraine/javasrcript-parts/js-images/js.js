@@ -30,6 +30,7 @@ $(function () {
     $('button').each(function (index, element) {
 
         $(element).on('click',function () {
+            debugger;
             let jopa = $(element).attr('jopa');
             if (jopa == 'animals') {
                 renderImages(animals);
