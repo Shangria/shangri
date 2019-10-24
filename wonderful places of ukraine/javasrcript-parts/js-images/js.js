@@ -29,8 +29,7 @@ let cars = [
 $(function () {
     $('button').each(function (index, element) {
 
-        $(element).on('click',function () {
-            debugger;
+        $(element).on('click', function () {
             let jopa = $(element).attr('jopa');
             if (jopa == 'animals') {
                 renderImages(animals);
