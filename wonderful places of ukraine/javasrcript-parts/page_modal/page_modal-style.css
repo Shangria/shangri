@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_modal_body {
+    background: url("https://images11.popmeh.ru/upload/img_cache/d8a/d8a9cb86c11c6f031b17a22771ccbbfe_fitted_800x3000.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+button {
+    position: absolute;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(to top, #5cc4fe, #2610f1);
+    border: 1px solid #5cc4fe;
+}
+
+.page_modal_body .page_modal_wrapper {
+    position: absolute;
+    box-shadow: 11px 15px 63px 0px rgba(25, 68, 138, 1);
+    margin: 6% 30%;
+    height: 300px;
+    width: 600px;
+}
+
+.page_modal_body .page_modal_wrapper .modal_title {
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.page_modal_body .page_modal_wrapper .button-close {
+    float: right;
+    border: 1px outset #6381db;
+    box-shadow: 2px 14px 45px 7px rgba(64, 191, 255, 1);
+    font-size: 17px;
+    margin-top: -36px;
+    margin-right: -4px;
+}
+
+.page_modal_body .page_modal_wrapper .button-close:before {
+    content: '\2693';
+}
+.page_modal_body .page_modal_wrapper .modal-text{
+    color: #2610f1;
+    padding: 40px;
+    font-size: 20px;
+}

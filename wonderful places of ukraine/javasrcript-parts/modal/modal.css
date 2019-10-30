@@ -1,0 +1,39 @@
+.modal {
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    position: fixed;
+    top: 100%;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    transition: top ease-out 400ms;
+}
+
+.modal.open {
+    display: block;
+    top: 50px;
+}
+
+.modal .modal-header {
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.modal .modal-header .modal-title {
+    display: inline;
+}
+
+.modal .modal-header button.modal-close {
+    float: right;
+    background: none;
+    border: none;
+    color: darkgrey;
+}
+
+.modal .modal-header button.modal-close:hover {
+    color: black;
+}
+
+.modal .modal-body {
+    padding: 10px 20px;
+}

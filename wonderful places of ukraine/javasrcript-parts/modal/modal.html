@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../libraries/jquery3.4.1.js"></script>
+    <script src="modal.js"></script>
+    <link rel="stylesheet" href="modal.css">
+    <title>modal</title>
+</head>
+<body>
+
+<button id="openModal" type="button">Open modal</button>
+
+
+<div id="modal" class="modal">
+    <div class="modal-header">
+        <span class="modal-title">Я заголовок модального окна</span>
+        <button id="closeModal" class="modal-close" type="button">&times;</button>
+    </div>
+    <div class="modal-body">
+        <p>Below is a <em>static</em> modal example (meaning its <code class="highlighter-rouge">position</code> and <code class="highlighter-rouge">display</code> have been overridden).
+            Included are the modal header, modal body (required for <code class="highlighter-rouge">padding</code>), a
+            nd modal footer (optional). We ask that you include modal headers with dismiss actions whenever possible, or provide another explicit dismiss action.</p>
+    </div>
+</div>
+
+
+</body>
+</html>
