@@ -22,13 +22,18 @@ button {
 }
 
 .page_modal_body .page_modal_wrapper {
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     box-shadow: 11px 15px 63px 0px rgba(25, 68, 138, 1);
     margin: 6% 30%;
     height: 300px;
     width: 600px;
 }
 
+.page_modal_body .page_modal_wrapper .open{
+    z-index: 4;
+
+}
 .page_modal_body .page_modal_wrapper .modal_title {
     border-bottom: 1px solid white;
     color: white;
