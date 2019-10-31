@@ -1,5 +1,5 @@
 $(function () {
-
+debugger
     let modal = $('#modal');
     let closeModalButton = $('#closeModal');
     let openModalButton = $('#openModal');
