@@ -1,5 +1,7 @@
 $(function () {
 
+    // посмотреть что такое функция конструктор и как ей пользоваться
+
     let arcticModal = new Modal('#arcticModalTitle', '#arcticModalBody');
     $('#openArcticModal').on('click', function () {
         arcticModal.openModal();
