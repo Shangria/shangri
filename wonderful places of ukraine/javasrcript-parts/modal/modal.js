@@ -1,27 +1,50 @@
-$(function () {
-debugger
-    let modal = $('#modal');
-    let closeModalButton = $('#closeModal');
-    let openModalButton = $('#openModal');
+function Modal(title, body) {
+    debugger;
+    let modalMainElement;
 
-
-    /*событие, которое запускается, когда страница полностью загрузилась, раньше было $(document).ready */
-
-    $(openModalButton).on('click', function () {
-        openModal();
-    });
-
-    $(closeModalButton).on('click', function () {
-        closeModal();
-    });
+    this.openModal = openModal;
 
 
     function openModal() {
-        $(modal).addClass('open');
+        $(modalMainElement).addClass('open');
     }
+
+
+    modalMainElement = $('' +
+        '<div class="modal">' +
+        '    <div class="modal-header">' +
+        '        <span class="modal-title"></span>' +
+        '        <button  class="modal-close" type="button">&times;</button>' +
+        '    </div>' +
+        '    <div class="modal-body"></div>' +
+        '</div>'
+    );
+    $('body').append(modalMainElement);
+
+
+    let closeButton = $(modalMainElement).find('.modal-header button.modal-close');
+    $(closeButton).on('click', function () {
+        closeModal();
+    });
 
     function closeModal() {
-        $(modal).removeClass('open');
+        $(modalMainElement).removeClass('open');
     }
 
-});
+
+    let titleHtml = readHtmlFromTemplate(title);
+    let placeForTitle = $(modalMainElement).find('.modal-header .modal-title');
+    $(placeForTitle).html(titleHtml);
+
+    let bodyHtml = readHtmlFromTemplate(body);
+    let placeForBody = $(modalMainElement).find('.modal-body');
+    $(placeForBody).html(bodyHtml);
+
+
+    function readHtmlFromTemplate(templateId) {
+        let html = $(templateId).html();
+        return html;
+    }
+
+
+}
