@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.page_modal_body {
+.arctic-background {
     background: url("https://images11.popmeh.ru/upload/img_cache/d8a/d8a9cb86c11c6f031b17a22771ccbbfe_fitted_800x3000.jpg") center center no-repeat;
     background-size: cover;
     height: 100vh;
@@ -21,8 +21,8 @@ button {
     border: 1px solid #5cc4fe;
 }
 
-.page_modal_body .page_modal_wrapper {
-    top:100%;
+.page_modal_wrapper {
+    top: 100%;
     position: fixed;
     box-shadow: 11px 15px 63px 0px rgba(25, 68, 138, 1);
     margin: 6% 30%;
@@ -34,8 +34,8 @@ button {
     transition: 1s top;
 }
 
-.page_modal_body .open {
-    top:0;
+.open {
+    top: 0;
     position: fixed;
     box-shadow: 11px 15px 63px 0px rgba(25, 68, 138, 1);
     margin: 6% 30%;
@@ -47,12 +47,12 @@ button {
     transition: top 1s;
 }
 
-.page_modal_body .modal_title {
+.modal_title {
     border-bottom: 1px solid white;
     padding: 10px;
 }
 
-.page_modal_body .button-close {
+.button-close {
     float: right;
     border: 1px outset #6381db;
     box-shadow: 2px 14px 45px 7px rgba(64, 191, 255, 1);
@@ -61,11 +61,11 @@ button {
     margin-right: -4px;
 }
 
-.page_modal_body .button-close:before {
+.button-close:before {
     content: '\2693';
 }
 
-.page_modal_body .modal-text {
+.modal-text {
     color: #2610f1;
     padding: 40px;
     font-size: 20px;

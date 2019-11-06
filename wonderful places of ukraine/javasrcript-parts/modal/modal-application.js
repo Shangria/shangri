@@ -13,7 +13,4 @@ $(function () {
         tukanModal.openModal();
     });
 
-
-    tukanModal.openModal();
-
 });
