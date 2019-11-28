@@ -1,0 +1,49 @@
+section blockquote {
+    color: green;
+}
+
+section blockquote span:before {
+    content: "\201C";
+}
+
+section blockquote span:after {
+    content: "\201D";
+}
+
+section h3:first-child {
+    color: pink;
+}
+
+section p:nth-child(even) {
+    color: black;
+}
+
+section #greycol {
+    color: gray;
+}
+
+section div p {
+    color: red;
+}
+
+section p {
+    color: #087f5b;
+}
+section .yellow:last-child{
+    color: yellow;
+}
+
+section ul{
+    list-style: none;
+    font-size: 18px;
+}
+section ul li:first-child{
+    color: green;
+    background: yellow;
+}
+section ul li:nth-child(even){
+    font-size: 20px;
+}
+section ul li:nth-child(3n+1){
+    background: yellow;
+}
