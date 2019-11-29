@@ -99,16 +99,12 @@ section:hover .picture-link a:after {
 }
 
 section .bg-box {
-    height: 98vh;
-    background:url('img/green-png-44873.png') bottom repeat-x,
+    height: 99vh;
+    background: url('img/green-png-44873.png') bottom repeat-x,
     url("img/lamp-png-34914.png") top repeat-x,
     url("img/pole-zelen-trava-dom-derevya.jpg") center no-repeat,
     url('img/2.png') left repeat-y,
     url("img/1.png") right repeat-y,
     green;
-    background-size: 18%, 4%,auto, 2%, 2%;
-
-
-
-
+    background-size: 18%, 4%, auto, 2%, 2%;
 }
