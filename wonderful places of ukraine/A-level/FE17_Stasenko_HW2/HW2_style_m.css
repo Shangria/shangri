@@ -1,0 +1,108 @@
+
+section blockquote {
+    color: green;
+}
+
+section blockquote span:before {
+    content: "\201C";
+}
+
+section blockquote span:after {
+    content: "\201D";
+}
+
+section h3:nth-child(1) {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+section div p {
+    color: red;
+}
+
+section p:nth-child(7) {
+    color: #087f5b;
+}
+
+section p.yellow {
+    color: yellow;
+}
+
+
+
+section ul {
+    /*display: inline-block;*/
+    list-style: none;
+    font-size: 18px;
+    height: 30%;
+}
+
+section ul li:before {
+    content: " - ";
+}
+
+section ul li:first-child {
+    background: yellow;
+}
+
+section ul li:nth-child(1) a {
+    color: green;
+}
+
+section ul li:nth-child(even) {
+    font-size: 20px;
+}
+
+section ul li:nth-child(3n+1) {
+    background: yellow;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section ul li a:hover {
+    color: #d50e95;
+    font-size: 20px;
+    box-shadow: -8px -8px 25px 23px rgba(186, 18, 18, 0.64);
+    background: white;
+}
+
+section .picture-link {
+    height: 30%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+section .picture-link a {
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    color: #229920;
+
+}
+
+section .picture-link a:after {
+    display: inline-block;
+    content: "Hello, world!";
+}
+
+section:hover .picture-link a:after {
+    content: "Nice to meet you!";
+
+}
+
+section .bg-box {
+    height: 99vh;
+    background: url('img/green-png-44873.png') bottom repeat-x,
+    url("img/lamp-png-34914.png") top repeat-x,
+    url("img/pole-zelen-trava-dom-derevya.jpg") center no-repeat,
+    url('img/2.png') left repeat-y,
+    url("img/1.png") right repeat-y,
+    green;
+    background-size: 18%, 4%, auto, 2%, 2%;
+}
