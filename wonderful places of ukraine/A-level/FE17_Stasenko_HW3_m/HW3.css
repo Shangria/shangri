@@ -26,7 +26,6 @@
     height: 300px;
 }
 
-
 .hw3 .part-2 img.card {
     width: 150px;
     position: absolute;
@@ -47,7 +46,6 @@
     transform: translate(-50%) rotate(0deg);
 }
 
-
 .hw3 .part-2 img.card:nth-child(3) {
     transform: translate(-60%) rotate(10deg);
 }
@@ -58,32 +56,59 @@
     height: 300px;
 }
 
-.hw3 .part-3 img {
+.hw3 .part-3 .image-wrapper {
     position: absolute;
-    width: 50px;
+    width: 100px;
+    height: 100px;
     z-index: 1;
 }
 
-.hw3 .part-3 img:hover {
+.hw3 .part-3 .image-wrapper:hover {
     z-index: 2;
 }
 
-.hw3 .part-3 img:nth-child(1) {
+.hw3 .part-3 .image-wrapper:nth-child(1) {
     top: 20px;
     left: 20px;
 }
 
-.hw3 .part-3 img:nth-child(2) {
+.hw3 .part-3 .image-wrapper:nth-child(2) {
     top: 40px;
     left: 40px;
 }
 
-.hw3 .part-3 img:nth-child(3) {
+.hw3 .part-3 .image-wrapper:nth-child(3) {
     top: 60px;
     left: 60px;
 }
 
-.hw3 .part-3 img:nth-child(4) {
+.hw3 .part-3 .image-wrapper:nth-child(4) {
     top: 80px;
     left: 80px;
 }
+
+.hw3 .part-3 .image-wrapper img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.hw3 .part-3 .image-wrapper .image-popover {
+    display: none;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: lightgrey;
+    border: grey;
+    opacity: 0.9;
+    padding: 10px;
+    z-index: 2;
+}
+
+.hw3 .part-3 .image-wrapper:hover .image-popover {
+    display: block;
+}
+
+
+
